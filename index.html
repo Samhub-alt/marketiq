@@ -466,9 +466,8 @@ async function load(){
   sv('m-status','Fetching data.json…');
 
   // Try 3 different URL approaches to handle all GitHub Pages setups
+
   const urls = [
-    'https://raw.githubusercontent.com/Samhub-alt/marketiq/main/data.json?t='+Date.now(),
-    '/marketiq/data.json?t='+Date.now(),
     'data.json?t='+Date.now()
   ];
 
