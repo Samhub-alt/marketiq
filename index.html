@@ -462,43 +462,48 @@ let D=null, myRows=[], rrgHidden=new Set(), rrgAnim=null, rrgF=51, rrgMax=51;
 // ═══════════════════════════════════════════════════
 // DATA LOADING
 // ═══════════════════════════════════════════════════
+
+
 async function load(){
   sv('m-status','Fetching data.json…');
-
-  // Try 3 different URL approaches to handle all GitHub Pages setups
-
-  const urls = [
-    'data.json?t='+Date.now()
-  ];
-
-  let text = null;
-  let lastErr = '';
-
-  for(let i=0; i<urls.length; i++){
-    try{
-      sv('m-status', 'Trying URL '+(i+1)+'/3…');
-      const controller = new AbortController();
-      const timer = setTimeout(()=>controller.abort(), 10000); // 10s timeout
-      const res = await fetch(urls[i], {
-        cache: 'no-store',
-        signal: controller.signal
-      });
-      clearTimeout(timer);
-      if(res.ok){
-        text = await res.text();
-        sv('m-status', 'Got response from URL '+(i+1)+': '+text.length+' bytes');
-        break;
-      } else if(res.status===404){
-        lastErr = '404 — data.json not found';
-        // Try next URL
-      } else {
-        lastErr = 'HTTP '+res.status;
-      }
-    }catch(e){
-      lastErr = e.message;
-      // Try next URL
+  try {
+    // Looks for data.json in the exact same folder
+    const res = await fetch('data.json?t=' + Date.now());
+    
+    if (!res.ok) {
+      sv('m-status', '❌ data.json not found. Has GitHub Action run?');
+      return;
     }
+    
+    const text = await res.text();
+    D = JSON.parse(text);
+    
+    if(!D || !D.stocks || !D.stocks.length){
+      sv('m-status', '❌ Empty data. Check GitHub Actions logs.');
+      return;
+    }
+    
+    sv('m-status','✅ Loaded ' + D.stocks.length + ' stocks');
+    
+    // Set up RRG sliders and render the dashboard
+    const lens = Object.values(D.rrgData||{}).map(a=>a.length-1).filter(n=>n>0);
+    rrgMax = lens.length ? Math.max(...lens) : 51;
+    const sl = document.getElementById('rrgslider');
+    if(sl){ sl.max=rrgMax; sl.value=rrgMax; }
+    rrgF = rrgMax;
+    
+    updateBanner();
+    renderAll();
+    populateSim();
+    populateSectors();
+    
+  } catch(e) {
+    sv('m-status', '❌ Error: ' + e.message);
   }
+}
+
+  
+
 
   if(!text){
     if(lastErr.includes('404') || lastErr.includes('not found')){
