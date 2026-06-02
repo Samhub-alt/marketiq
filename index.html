@@ -155,7 +155,7 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
 
 .swing-card{background:var(--bg3);border:1px solid var(--bd);border-radius:10px;padding:14px;margin-bottom:10px;}
 .sc-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:6px;}
-.sc-sym覆{font-size:15px;font-weight:800;color:var(--acc);font-family:var(--mono);}
+.sc-sym{font-size:15px;font-weight:800;color:var(--acc);font-family:var(--mono);}
 .sc-name{font-size:11px;color:var(--tx2);}
 .sc-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px;}
 .sc-metric{background:var(--bg4);border-radius:6px;padding:6px 8px;}
@@ -192,7 +192,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
 .overlay{position:fixed;inset:0;background:rgba(7,9,14,.93);display:flex;align-items:center;justify-content:center;z-index:500;padding:20px;backdrop-filter:blur(4px);}
 </style>
 
-<!-- ⚡ SCRIPT BLOCK 1: EXTRA HIGHER-PRIORITY ISOLATED LIVE DEBUGGER ⚡ -->
 <script>
   window.onerror = function (msg, url, lineNo, columnNo, error) {
     var statusEl = document.getElementById('m-status');
@@ -230,7 +229,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </nav>
 
-<!-- MOMENTUM -->
 <div id="page-momentum" class="page on">
   <div class="banner" id="banner">
     <div class="bdot" id="bdot"></div>
@@ -253,7 +251,7 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
       <div class="shdr"><div class="stitle">Top NSE Movers Today</div><span class="livebadge"><div class="ldot"></div>REAL DATA</span></div>
       <div class="tw"><table class="tbl">
         <thead><tr><th>SYMBOL</th><th>NAME</th><th>PRICE (₹)</th><th>CHG</th><th>% CHG</th><th>OPEN</th><th>HIGH</th><th>LOW</th><th>VOLUME</th><th>CANDLE</th><th>RSI</th><th>DATE</th></tr></thead>
-        <tbody><tr><td colspan="12"><div class="ld" id="m-status"><div class="spinner"></div><span>Connecting…</span></div></td></tr></tbody>
+        <tbody id="m-tbody"><tr><td colspan="12"><div class="ld"><div class="spinner"></div><span id="m-status">Connecting…</span></div></td></tr></tbody>
       </table></div>
     </div>
     <div class="panel">
@@ -263,7 +261,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- BREAKOUT -->
 <div id="page-breakout" class="page">
   <div class="ctrlbar">
     <input id="br-q" placeholder="Search…" style="background:var(--bg3);border:1px solid var(--bd2);color:var(--tx);padding:5px 9px;border-radius:6px;font-size:12px;outline:none;width:140px" oninput="rBr()">
@@ -285,7 +282,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- INTRADAY -->
 <div id="page-intraday" class="page">
   <div class="infobar">⚡ Sorted by absolute % change — biggest movers of the day. Updated every 30 min automatically via GitHub Actions.</div>
   <div class="g12">
@@ -309,7 +305,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- SWING -->
 <div id="page-swing" class="page">
   <div class="infobar">🔄 Auto-selected: Bullish candle (25pts) + Above MA20 (20pts) + Above MA50 (15pts) + RSI 50-70 (20pts) + Trend ≥2 days (20pts). Max score = 100.</div>
   <div class="g12">
@@ -321,7 +316,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- POSITIONAL -->
 <div id="page-positional" class="page">
   <div class="infobar">📍 Stocks with 2+ consecutive up days. Sorted by trend days then % change. Dynamically computed from real data.</div>
   <div class="g12">
@@ -336,7 +330,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- MULTI-YEAR -->
 <div id="page-multiyear" class="page">
   <div class="ctrlbar">
     <input id="my-q" placeholder="Search…" style="background:var(--bg3);border:1px solid var(--bd2);color:var(--tx);padding:5px 9px;border-radius:6px;font-size:12px;outline:none;width:140px" oninput="fMY()">
@@ -360,7 +353,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- RRG -->
 <div id="page-rrg" class="page">
   <div class="infobar">🌀 Relative Rotation Graph — RS-Ratio vs Nifty 50, computed weekly over 1 year. Use ▶ Animate to replay rotation history. Tail = number of weeks shown per sector.</div>
   <div class="g2" style="align-items:start">
@@ -392,7 +384,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- SWING DEEP -->
 <div id="page-swingdeep" class="page">
   <div class="infobar">🎯 Deep Swing Analysis — Multi-factor scoring. RSI, MA crossovers, candle patterns, volume, momentum all computed from real historical data.</div>
   <div class="ac-grid" id="deep-cards"></div>
@@ -412,7 +403,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- MARKET DEPTH -->
 <div id="page-marketdepth" class="page">
   <div class="infobar">🔬 Market breadth, advance/decline ratio, sector rotation, volume leaders — all from real live data.</div>
   <div class="ac-grid" id="breadth-cards"></div>
@@ -436,7 +426,6 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- SIMULATOR -->
 <div id="page-simulator" class="page">
   <div class="simwrap">
     <div class="panel" style="display:flex;flex-direction:column">
@@ -467,50 +456,92 @@ html,body{background:var(--bg);color:var(--tx);font-family:var(--fm);font-size:1
   </div>
 </div>
 
-<!-- ⚙️ SCRIPT BLOCK 2: MAIN DASHBOARD APPLICATION ENGINE ⚙️ -->
 <script>
 'use strict';
+// ═══════════════════════════════════════════════════
+// GLOBALS
+// ═══════════════════════════════════════════════════
 const PAGES=['momentum','breakout','intraday','swing','positional','multiyear','rrg','swingdeep','marketdepth','simulator'];
 const SC=['#42a5f5','#ab47bc','#66bb6a','#ef5350','#8bc34a','#ff7043','#26a69a','#ffd740','#80d8ff','#f48fb1','#ce93d8','#a5d6a7'];
 let D=null, myRows=[], rrgHidden=new Set(), rrgAnim=null, rrgF=51, rrgMax=51;
 
+// ═══════════════════════════════════════════════════
+// DATA LOADING
+// ═══════════════════════════════════════════════════
 async function load(){
-  const statusEl = document.getElementById('m-status');
-  if (statusEl) statusEl.innerHTML = '<div class="spinner"></div><span>Fetching data...</span>';
+  sv('m-status','Fetching data.json…');
 
-  try {
-    const res = await fetch('data.json?t=' + Date.now());
-    
-    if (!res.ok) {
-      if (statusEl) statusEl.innerHTML = '<span style="color:var(--red);">❌ data.json missing (HTTP status ' + res.status + '). Ensure GitHub workflow completed.</span>';
-      return;
+  const urls = [
+    'https://raw.githubusercontent.com/Samhub-alt/marketiq/main/data.json?t='+Date.now(),
+    '/marketiq/data.json?t='+Date.now(),
+    'data.json?t='+Date.now()
+  ];
+
+  let text = null;
+  let lastErr = '';
+
+  for(let i=0; i<urls.length; i++){
+    try{
+      sv('m-status', 'Trying URL '+(i+1)+'/3…');
+      const controller = new AbortController();
+      const timer = setTimeout(()=>controller.abort(), 10000);
+      const res = await fetch(urls[i], {
+        cache: 'no-store',
+        signal: controller.signal
+      });
+      clearTimeout(timer);
+      if(res.ok){
+        text = await res.text();
+        sv('m-status', 'Got response from URL '+(i+1)+': '+text.length+' bytes');
+        break;
+      } else if(res.status===404){
+        lastErr = '404 — data.json not found';
+      } else {
+        lastErr = 'HTTP '+res.status;
+      }
+    }catch(e){
+      lastErr = e.message;
     }
-    
-    const text = await res.text();
-    D = JSON.parse(text);
-
-    if (!D || !D.stocks || !D.stocks.length) {
-      if (statusEl) statusEl.innerHTML = '<span style="color:var(--red);">❌ Parser Error: No stock items found in dataset.</span>';
-      return;
-    }
-
-    if (statusEl) statusEl.innerHTML = '<span style="color:var(--grn);">✅ Processed ' + D.stocks.length + ' metrics</span>';
-
-    const lens = Object.values(D.rrgData||{}).map(a=>a.length-1).filter(n=>n>0);
-    rrgMax = lens.length ? Math.max(...lens) : 51;
-    const sl = document.getElementById('rrgslider');
-    if(sl){ sl.max=rrgMax; sl.value=rrgMax; }
-    rrgF = rrgMax;
-
-    updateBanner();
-    renderAll();
-    populateSim();
-    populateSectors();
-
-  } catch(e) {
-    console.error(e);
-    if (statusEl) statusEl.innerHTML = '<span style="color:var(--red);">❌ Runtime Handling Exception: ' + e.message + '</span>';
   }
+
+  if(!text){
+    if(lastErr.includes('404') || lastErr.includes('not found')){
+      showGuide();
+    } else {
+      sv('m-status','❌ All URLs failed: '+lastErr);
+    }
+    return;
+  }
+
+  if(text.trim().startsWith('<')){
+    sv('m-status','❌ Got HTML instead of JSON. Make sure data.json is in root of repo and GitHub Actions has run.');
+    return;
+  }
+
+  try{
+    D = JSON.parse(text);
+  }catch(e){
+    sv('m-status','❌ JSON parse error: '+e.message+'. Run GitHub Actions again to regenerate data.json');
+    return;
+  }
+
+  if(!D.stocks || !D.stocks.length){
+    sv('m-status','❌ 0 stocks in data.json — GitHub Actions may have failed. Check Actions logs.');
+    return;
+  }
+
+  sv('m-status','✅ Loaded '+D.stocks.length+' stocks · '+D.indices.length+' indices');
+
+  const lens = Object.values(D.rrgData||{}).map(a=>a.length-1).filter(n=>n>0);
+  rrgMax = lens.length ? Math.max(...lens) : 51;
+  const sl = document.getElementById('rrgslider');
+  if(sl){ sl.max=rrgMax; sl.value=rrgMax; }
+  rrgF = rrgMax;
+
+  updateBanner();
+  renderAll();
+  populateSim();
+  populateSectors();
 }
 
 function updateBanner(){
@@ -526,34 +557,64 @@ function updateBanner(){
   }catch(e){}
 }
 
-function go(n){
-  PAGES.forEach(p=>{
-    const el = document.getElementById('page-'+p);
-    if (el) el.classList.toggle('on', p===n);
-  });
-  document.querySelectorAll('.ntab').forEach((t,i)=>{
-    t.classList.toggle('on', PAGES[i]===n);
-  });
+function showGuide(){
+  const d=document.createElement('div');
+  d.className='overlay'; d.id='guide';
+  d.innerHTML=`<div style="background:var(--bg2);border:1px solid var(--bd2);border-radius:14px;padding:30px;max-width:540px;width:100%;text-align:center">
+    <div style="font-size:40px;margin-bottom:12px">⚙️</div>
+    <div style="font-size:18px;font-weight:800;margin-bottom:8px">data.json not found</div>
+    <div style="font-size:13px;color:var(--tx2);line-height:1.8;margin-bottom:18px">
+      GitHub Actions must run once to create <strong style="color:var(--acc)">data.json</strong>.
+    </div>
+    <div style="background:var(--bg3);border-radius:8px;padding:14px;text-align:left;font-size:12px;color:var(--tx2);line-height:2.2;border:1px solid var(--bd)">
+      <div>1️⃣ Go to GitHub repo → <strong style="color:var(--acc)">Actions</strong> tab</div>
+      <div>2️⃣ Click <strong style="color:var(--acc)">"Fetch NSE Market Data"</strong></div>
+      <div>3️⃣ Click <strong style="color:var(--acc)">"Run workflow"</strong> → <strong style="color:var(--acc)">"Run workflow"</strong></div>
+      <div>4️⃣ Wait ~3 minutes for ✅ green tick</div>
+      <div>5️⃣ Refresh this page</div>
+    </div>
+    <div style="margin-top:14px;font-size:11px;color:var(--tx3)">After first run, auto-updates every 30 min during market hours</div>
+    <div style="display:flex;gap:10px;justify-content:center;margin-top:16px">
+      <button onclick="document.getElementById('guide').remove();load()" style="background:var(--acc);color:#000;font-weight:800;border:none;border-radius:8px;padding:10px 22px;cursor:pointer;font-size:13px">↻ Try Again</button>
+      <button onclick="document.getElementById('guide').remove()" style="background:var(--bg4);color:var(--tx2);border:1px solid var(--bd2);border-radius:8px;padding:10px 22px;cursor:pointer;font-size:13px">✕ Dismiss</button>
+    </div>
+  </div>`;
+  document.body.appendChild(d);
 }
 
-setInterval(()=> {
-  const clockEl = document.getElementById('clock');
-  if (clockEl) clockEl.textContent=new Date().toLocaleString('en-IN',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'Asia/Kolkata'})+' IST';
-}, 1000);
+// ═══════════════════════════════════════════════════
+// NAV
+// ═══════════════════════════════════════════════════
+function go(n){
+  PAGES.forEach(p=>{
+    const pageEl = document.getElementById('page-'+p);
+    if(pageEl) pageEl.classList.toggle('on',p===n);
+  });
+  const tabs = document.querySelectorAll('.ntab');
+  if(tabs && tabs.length === PAGES.length){
+    tabs.forEach((t,i)=>t.classList.toggle('on',PAGES[i]===n));
+  }
+}
 
+setInterval(()=>{
+  const clock = document.getElementById('clock');
+  if(clock) clock.textContent=new Date().toLocaleString('en-IN',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'Asia/Kolkata'})+' IST';
+},1000);
+
+// ═══════════════════════════════════════════════════
+// HELPERS
+// ═══════════════════════════════════════════════════
 function sv(id,v){const e=document.getElementById(id);if(e)e.innerHTML=v;}
 function pc(v){const n=+v;return`<span class="pcc ${n>=0?'pp':'pn'}">${n>=0?'+':''}${n.toFixed(2)}%</span>`;}
 function mb(m){const c={Largecap:'ml',Midcap:'mm',Smallcap:'ms'}[m]||'ms';return`<span class="mb ${c}">${m}</span>`;}
 function fv(n){return(+n).toLocaleString('en-IN',{maximumFractionDigits:2});}
 function fvol(v){v=+v;return v>1e7?(v/1e7).toFixed(2)+'Cr':v>1e5?(v/1e5).toFixed(1)+'L':(v/1000).toFixed(0)+'K';}
-
 function ckChip(t){
   if(!t||t==='—')return'<span style="color:var(--tx3)">—</span>';
   const l=t.toLowerCase();
   const c=l.includes('bearish')?'cbear':l.includes('marubozu')?'cmaru':l.includes('doji')||l.includes('dragonfly')||l.includes('shooting')?'cdoji':l.includes('inverted')?'cinvh':l.includes('hammer')?'chammer':'cbull';
   return`<span class="ck ${c}">${t}</span>`;
 }
-
 function rsiColor(v){return +v>70?'var(--red)':+v<30?'var(--red)':+v>50?'var(--grn)':'var(--ylw)';}
 function rsiV(v){return`<span style="font-family:var(--mono);font-size:11px;font-weight:700;color:${rsiColor(v)}">${v}</span>`;}
 function scBadge(v){const c=v>=70?'sc-hi':v>=40?'sc-md':'sc-lo';return`<span class="scbadge ${c}">${v}</span>`;}
@@ -563,29 +624,30 @@ function dlCSV(){
   if(!D||!D.stocks)return;
   const h=Object.keys(D.stocks[0]);
   const csv=[h.join(','),...D.stocks.map(r=>h.map(k=>String(r[k]).replace(/,/g,';')).join(','))].join('\n');
-  const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
-  a.download='marketiq_'+new Date().toISOString().slice(0,10)+'.csv';a.click();
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv'}));
+  a.download='marketiq_'+new Date().toISOString().slice(0,10)+'.csv';
+  a.click();
 }
 
 function populateSectors(){
   if(!D)return;
   const secs=[...new Set(D.stocks.map(s=>s.sector))].sort();
   const sel=document.getElementById('br-sec');
-  if(sel)sel.innerHTML='<option value="">All Sectors</option>'+secs.map(s=>`<option>${s}</option>`).join('');
+  if(sel) sel.innerHTML='<option value="">All Sectors</option>'+secs.map(s=>`<option>${s}</option>`).join('');
 }
 
+// ═══════════════════════════════════════════════════
+// RENDER ALL
+// ═══════════════════════════════════════════════════
 function renderAll(){
   if(!D)return;
-  try {
-    rMom(); rBr(); rIntra(); rSwing(); rPos(); rMY(); rRRG(); rDeep(); rDepth();
-  } catch(e) {
-    console.error("Render Process Stopped:", e);
-    const errStatus = document.getElementById('m-status');
-    if (errStatus) errStatus.innerHTML = `<span style="color:var(--red);">❌ Application Render Exception: ${e.message}</span>`;
-  }
+  rMom();rBr();rIntra();rSwing();rPos();rMY();rRRG();rDeep();rDepth();
 }
 
+// MOMENTUM
 function rMom(){
+  if(!D)return;
   (D.indices||[]).forEach((idx,i)=>{
     sv('i'+i+'v','₹'+fv(idx.price));sv('i'+i+'n',idx.name);
     sv('i'+i+'c',`<span class="${idx.chg>=0?'up':'dn'}">${idx.chg>=0?'▲':'▼'} ${Math.abs(idx.chgPct).toFixed(2)}%</span>`);
@@ -608,10 +670,13 @@ function rMom(){
   sv('m-sec',secs.map(s=>`<div class="tb"><div class="tb-top"><span class="tb-nm">${s.name}</span><span class="tb-v ${s.avgPct>=0?'up':'dn'}">${s.avgPct>=0?'+':''}${s.avgPct.toFixed(2)}%</span></div><div class="tb-tr"><div class="tb-fl" style="width:${Math.abs(s.avgPct)/mx*100}%;background:${s.avgPct>=0?'var(--grn)':'var(--red)'}"></div></div></div>`).join(''));
 }
 
+// BREAKOUT
 function rBr(){
   if(!D)return;
-  const q=(document.getElementById('br-q')?.value||'').toLowerCase();
-  const sec=document.getElementById('br-sec')?.value||'';
+  const qEl = document.getElementById('br-q');
+  const q = (qEl ? qEl.value : '').toLowerCase();
+  const secEl = document.getElementById('br-sec');
+  const sec = secEl ? secEl.value : '';
   let st=[...D.stocks].filter(r=>(!q||(r.sym+r.name).toLowerCase().includes(q))&&(!sec||r.sector===sec)).sort((a,b)=>b.chgPct-a.chgPct);
   sv('br-tbody',st.map(r=>`<tr><td><span class="sym">${r.sym}</span></td><td>${r.sector}</td><td>${mb(r.mcap)}</td><td style="font-family:var(--mono);font-weight:700">₹${fv(r.price)}</td><td>${pc(r.chgPct)}</td><td style="font-family:var(--mono);color:var(--tx2)">₹${fv(r.open)}</td><td style="font-family:var(--mono);color:var(--grn)">₹${fv(r.high)}</td><td style="font-family:var(--mono);color:var(--red)">₹${fv(r.low)}</td><td style="font-family:var(--mono);color:var(--tx3)">${fvol(r.vol)}</td><td>${ckChip(r.dCandle)}</td><td>${ckChip(r.wCandle)}</td><td>${rsiV(r.rsi)}</td><td style="font-family:var(--mono);font-size:10px;color:var(--acc)">${r.dt}</td></tr>`).join(''));
   const sd={};st.forEach(r=>sd[r.sector]=(sd[r.sector]||0)+1);const tot=st.length||1;
@@ -620,6 +685,7 @@ function rBr(){
   sv('br-ind',secs.map(s=>`<div class="isr"><div class="isr-nm">${s.name}</div><div class="isr-stk">${s.count} stk</div><div class="isr-bar"><div class="isr-fill" style="width:${Math.abs(s.avgPct)/mx*100}%"></div></div><div class="isr-v ${s.avgPct>=0?'up':'dn'}">${s.avgPct>=0?'+':''}${s.avgPct.toFixed(2)}%</div></div>`).join(''));
 }
 
+// INTRADAY
 function rIntra(){
   if(!D)return;
   const st=[...D.stocks].sort((a,b)=>Math.abs(b.chgPct)-Math.abs(a.chgPct));
@@ -633,15 +699,19 @@ function rIntra(){
   sv('intra-hm',secs.map((s)=>{const a=0.08+0.25*(Math.abs(s.avgPct)/mx);const col=s.avgPct>=0?'#00e676':'#ff3b55';return`<div class="hm-item" style="background:${col}${Math.round(a*255).toString(16).padStart(2,'0')}"><div class="hm-nm">${s.name}</div><div class="hm-pct" style="color:${col}">${s.avgPct>=0?'+':''}${s.avgPct.toFixed(2)}%</div><div class="hm-sub">${s.count} stocks</div></div>`;}).join(''));
 }
 
+// SWING
 function rSwing(){
   if(!D)return;
   const picks=D.swingPicks||[...D.stocks].filter(r=>r.swingScore>=60).sort((a,b)=>b.swingScore-a.swingScore).slice(0,6);
-  const strong=picks[0]?.sector||'—';
-  sv('sw-meta',`<div class="mc"><div class="mc-l">Strong Sector</div><div class="mc-v" style="font-size:14px">${strong}</div><div class="mc-s">Top swing sector</div></div><div class="mc"><div class="mc-l">Swing Picks</div><div class="mc-v">${picks.length}</div><div class="mc-s">Score ≥ 60/100</div></div><div class="mc"><div class="mc-l">Avg RSI</div><div class="mc-v">${picks.length?Math.round(picks.reduce((a,b)=>a+(b.rsi||50),0)/picks.length):0}</div><div class="mc-s">Ideal: 50–65</div></div><div class="mc"><div class="mc-l">Updated</div><div class="mc-v" style="font-size:9px;color:var(--grn)">${D.fetchedAt||'—'}</div><div class="mc-s">Auto by Actions</div></div>`);
+  const strong = picks.length > 0 ? picks[0].sector : '—';
+  const avgRsi = picks.length ? Math.round(picks.reduce((a,b)=>a+(b.rsi||50),0)/picks.length) : 0;
+  
+  sv('sw-meta',`<div class="mc"><div class="mc-l">Strong Sector</div><div class="mc-v" style="font-size:14px">${strong}</div><div class="mc-s">Top swing sector</div></div><div class="mc"><div class="mc-l">Swing Picks</div><div class="mc-v">${picks.length}</div><div class="mc-s">Score ≥ 60/100</div></div><div class="mc"><div class="mc-l">Avg RSI</div><div class="mc-v">${avgRsi}</div><div class="mc-s">Ideal: 50–65</div></div><div class="mc"><div class="mc-l">Updated</div><div class="mc-v" style="font-size:9px;color:var(--grn)">${D.fetchedAt||'—'}</div><div class="mc-s">Auto by Actions</div></div>`);
   sv('sw-cards',picks.map(r=>`<div class="swing-card"><div class="sc-top"><div><div class="sc-sym">${r.sym}</div><div class="sc-name">${r.name}</div></div><div style="display:flex;gap:6px;align-items:center">${pc(r.chgPct)} ${scBadge(r.swingScore||0)} ${ckChip(r.dCandle)}</div></div><div style="font-family:var(--mono);font-size:16px;font-weight:800;margin-bottom:8px">₹${fv(r.price)} <span style="font-size:11px;color:var(--tx2)">MA20:₹${fv(r.ma20||0)} MA50:₹${fv(r.ma50||0)}</span></div><div class="sc-metrics"><div class="sc-metric"><div class="sc-metric-l">RSI</div><div class="sc-metric-v" style="color:${rsiColor(r.rsi)}">${r.rsi}</div></div><div class="sc-metric"><div class="sc-metric-l">Up Days</div><div class="sc-metric-v up">${r.trend||0}d ${(r.trend||0)>=3?'🔥':''}</div></div><div class="sc-metric"><div class="sc-metric-l">5D Return</div><div class="sc-metric-v ${(r.ret5d||0)>=0?'up':'dn'}">${(r.ret5d||0)>=0?'+':''}${(r.ret5d||0).toFixed(2)}%</div></div><div class="sc-metric"><div class="sc-metric-l">ATR</div><div class="sc-metric-v">₹${fv(r.atr||0)}</div></div></div><div style="margin-top:8px;font-size:10px;color:var(--tx3)">${r.aboveMA20?'<span style="color:var(--grn)">✓ Above MA20</span>':'<span style="color:var(--red)">✗ Below MA20</span>'} · ${r.aboveMA50?'<span style="color:var(--grn)">✓ Above MA50</span>':'<span style="color:var(--red)">✗ Below MA50</span>'} · ${r.near52w?'<span style="color:var(--ylw)">Near 52W High</span>':''} · ${r.dt}</div></div>`).join(''));
   sv('sw-why',picks.map(r=>`<div class="why-i"><div class="why-nm">${r.name} <span class="wbadge">Score ${r.swingScore||0}/100</span></div><div class="why-sub"><strong style="color:var(--acc)">${r.sym}</strong> · ${r.dCandle} · RSI ${r.rsi} · ${r.aboveMA20?'Above MA20 ✓':''} · ${r.trend||0} up days · 5D: ${(r.ret5d||0)>=0?'+':''}${(r.ret5d||0).toFixed(2)}%</div></div>`).join(''));
 }
 
+// POSITIONAL
 function rPos(){
   if(!D)return;
   const all=[...D.stocks].sort((a,b)=>b.trend-a.trend||b.chgPct-a.chgPct);
@@ -651,6 +721,7 @@ function rPos(){
   sv('pos-why',picks.slice(0,5).map(r=>`<div class="why-i"><div class="why-nm">${r.name} <span class="wbadge">${r.trend} up days</span></div><div class="why-sub"><strong style="color:var(--acc)">${r.sym}</strong> · ${r.dCandle} · W:${r.wCandle} · RSI ${r.rsi} · ${r.dt}</div></div>`).join('')||'<div style="color:var(--tx3);font-size:12px;padding:10px">No stocks with 2+ consecutive up days today.</div>');
 }
 
+// MULTI-YEAR
 function rMY(){
   if(!D)return;
   myRows=[...D.stocks].sort((a,b)=>b.chgPct-a.chgPct);
@@ -660,16 +731,27 @@ function rMY(){
   sv('my-perf',myRows.slice(0,5).map((r,i)=>rnkRow(i,r.sym,`${r.chgPct>=0?'+':''}${r.chgPct.toFixed(2)}%`,r.chgPct>=0?'up':'dn')).join(''));
   sv('my-mom',myRows.filter(r=>r.near52w).slice(0,5).map((r,i)=>rnkRow(i,r.sym,'<span style="font-size:9px;color:var(--ylw);background:rgba(255,195,7,.1);padding:1px 5px;border-radius:3px">52W Hi</span>','')).join('')||'<div style="color:var(--tx3);font-size:11px;padding:5px">None near 52W high</div>');
 }
-function fMY(){const q=document.getElementById('my-q')?.value.toLowerCase()||'';renderMYT(myRows.filter(r=>r.sym.toLowerCase().includes(q)||r.sector.toLowerCase().includes(q)));}
-function renderMYT(rows){sv('my-tbody',rows.map(r=>`<tr><td><span class="sym">${r.sym}</span>${r.near52w?' <span style="font-size:9px;color:var(--ylw);background:rgba(255,195,7,.09);padding:1px 4px;border-radius:3px">52W</span>':''}</td><td style="font-size:11px;color:var(--tx2)">${r.name}</td><td>${r.sector}</td><td>${mb(r.mcap)}</td><td style="font-family:var(--mono);font-weight:700">₹${fv(r.price)}</td><td>${pc(r.chgPct)}</td><td>${r.near52w?'<span style="color:var(--grn)">✓</span>':'<span style="color:var(--tx3)">—</span>'}</td><td>${ckChip(r.dCandle)}</td><td>${ckChip(r.wCandle)}</td><td>${ckChip(r.mCandle)}</td><td>${ckChip(r.qCandle)}</td><td>${scBadge(Math.round(r.momScore||0))}</td><td style="font-family:var(--mono);font-size:10px;color:var(--acc)">${r.dt}</td></tr>`).join(''));}
+function fMY(){
+  const qEl = document.getElementById('my-q');
+  const q = (qEl ? qEl.value : '').toLowerCase();
+  renderMYT(myRows.filter(r=>r.sym.toLowerCase().includes(q)||r.sector.toLowerCase().includes(q)));
+}
+function renderMYT(rows){
+  sv('my-tbody',rows.map(r=>`<tr><td><span class="sym">${r.sym}</span>${r.near52w?' <span style="font-size:9px;color:var(--ylw);background:rgba(255,195,7,.09);padding:1px 4px;border-radius:3px">52W</span>':''}</td><td style="font-size:11px;color:var(--tx2)">${r.name}</td><td>${r.sector}</td><td>${mb(r.mcap)}</td><td style="font-family:var(--mono);font-weight:700">₹${fv(r.price)}</td><td>${pc(r.chgPct)}</td><td>${r.near52w?'<span style="color:var(--grn)">✓</span>':'<span style="color:var(--tx3)">—</span>'}</td><td>${ckChip(r.dCandle)}</td><td>${ckChip(r.wCandle)}</td><td>${ckChip(r.mCandle)}</td><td>${ckChip(r.qCandle)}</td><td>${scBadge(Math.round(r.momScore||0))}</td><td style="font-family:var(--mono);font-size:10px;color:var(--acc)">${r.dt}</td></tr>`).join(''));
+}
 
+// RRG
 function rRRG(){
   if(!D||!D.rrgData)return;
   const secs=Object.keys(D.rrgData);
   sv('rrgleg',secs.map((s,i)=>`<div class="rrgitem ${rrgHidden.has(s)?'off':''}" onclick="tRRG('${s}',this)"><div class="rrgdot" style="background:${SC[i%12]}"></div>${s}</div>`).join(''));
   drawRRG(); rRRGAnalysis();
 }
-function tRRG(n,el){rrgHidden.has(n)?rrgHidden.delete(n):rrgHidden.add(n);el.classList.toggle('off');drawRRG();}
+function tRRG(n,el){
+  rrgHidden.has(n)?rrgHidden.delete(n):rrgHidden.add(n);
+  el.classList.toggle('off');
+  drawRRG();
+}
 
 function drawRRG(){
   if(!D||!D.rrgData)return;
@@ -677,8 +759,11 @@ function drawRRG(){
   const ctx=cv.getContext('2d');
   const W=cv.width,H=cv.height;
   ctx.clearRect(0,0,W,H);
-  const tail=+document.getElementById('rrgtail').value;
+  
+  const tailInput = document.getElementById('rrgtail');
+  const tail = tailInput ? +tailInput.value : 8;
   const cx=W/2,cy=H/2;
+  
   ctx.fillStyle='rgba(0,230,118,.05)';ctx.fillRect(cx,0,cx,cy);
   ctx.fillStyle='rgba(0,180,216,.05)';ctx.fillRect(0,0,cx,cy);
   ctx.fillStyle='rgba(255,195,7,.05)';ctx.fillRect(cx,cy,cx,cy);
@@ -694,9 +779,11 @@ function drawRRG(){
 
   const secs=Object.keys(D.rrgData).filter(s=>!rrgHidden.has(s));
   if(!secs.length)return;
+  
   const allX=[],allY=[];
   secs.forEach(s=>D.rrgData[s].forEach(p=>{allX.push(p.x);allY.push(p.y);}));
   if(!allX.length)return;
+  
   const xMin=Math.min(...allX)-.5,xMax=Math.max(...allX)+.5;
   const yMin=Math.min(...allY)-.3,yMax=Math.max(...allY)+.3;
   const toC=(x,y)=>({px:(x-xMin)/(xMax-xMin)*W,py:H-(y-yMin)/(yMax-yMin)*H});
@@ -706,23 +793,36 @@ function drawRRG(){
     const pts=D.rrgData[s];if(!pts||!pts.length)return;
     const col=SC[Object.keys(D.rrgData).indexOf(s)%12];
     const sl=pts.slice(Math.max(0,endF-tail+1),endF+1);if(!sl.length)return;
-    ctx.beginPath();sl.forEach((p,i)=>{const{px,py}=toC(p.x,p.y);i===0?ctx.moveTo(px,py):ctx.lineTo(px,py);});
-    ctx.strokeStyle=col+'88';ctx.lineWidth=2;ctx.stroke();
+    
+    ctx.beginPath();
     sl.forEach((p,i)=>{
-      const{px,py}=toC(p.x,p.y);
+      const coords = toC(p.x,p.y);
+      i===0?ctx.moveTo(coords.px,coords.py):ctx.lineTo(coords.px,coords.py);
+    });
+    ctx.strokeStyle=col+'88';ctx.lineWidth=2;ctx.stroke();
+    
+    sl.forEach((p,i)=>{
+      const coords = toC(p.x,p.y);
       const a=.15+.85*(i/sl.length);const r=i===sl.length-1?6:2.5;
-      ctx.beginPath();ctx.arc(px,py,r,0,2*Math.PI);
+      ctx.beginPath();ctx.arc(coords.px,coords.py,r,0,2*Math.PI);
       ctx.fillStyle=col+(Math.round(a*255).toString(16).padStart(2,'0'));ctx.fill();
       if(i===sl.length-1){ctx.strokeStyle=col;ctx.lineWidth=1.5;ctx.stroke();}
     });
-    const last=sl[sl.length-1];const{px:lx,py:ly}=toC(last.x,last.y);
-    ctx.fillStyle=col;ctx.font='bold 10px DM Sans';ctx.textAlign='left';ctx.fillText(s,lx+8,ly+3);
+    const last=sl[sl.length-1];
+    const lastCoords = toC(last.x,last.y);
+    ctx.fillStyle=col;ctx.font='bold 10px DM Sans';ctx.textAlign='left';ctx.fillText(s,lastCoords.px+8,lastCoords.py+3);
   });
 
   const allSecs=Object.keys(D.rrgData);
-  const dateStr=allSecs.length&&D.rrgData[allSecs[0]]?.[endF]?.date||'—':'—';
+  let dateStr = '—';
+  if(allSecs.length > 0 && D.rrgData[allSecs[0]] && D.rrgData[allSecs[0]][endF]){
+    dateStr = D.rrgData[allSecs[0]][endF].date || '—';
+  }
   sv('rrg-el',dateStr);
-  if(allSecs.length&&D.rrgData[allSecs[0]]?.[0]?.date)sv('rrg-sl',D.rrgData[allSecs[0]][0].date);
+  
+  if(allSecs.length > 0 && D.rrgData[allSecs[0]] && D.rrgData[allSecs[0]][0]){
+    sv('rrg-sl',D.rrgData[allSecs[0]][0].date);
+  }
 }
 
 function rRRGAnalysis(){
@@ -730,6 +830,7 @@ function rRRGAnalysis(){
   const secs=Object.keys(D.rrgData);
   const endF=Math.min(rrgF,rrgMax);
   const quad={leading:[],improving:[],weakening:[],lagging:[]};
+  
   secs.forEach(s=>{
     const pts=D.rrgData[s];if(!pts||!pts.length)return;
     const p=pts[Math.min(endF,pts.length-1)];
@@ -738,7 +839,9 @@ function rRRGAnalysis(){
     else if(p.x>100&&p.y<100)quad.weakening.push(s);
     else quad.lagging.push(s);
   });
+  
   sv('rrgquad',[{l:'Leading 🟢',d:quad.leading,c:'var(--grn)'},{l:'Improving 🔵',d:quad.improving,c:'var(--acc)'},{l:'Weakening 🟡',d:quad.weakening,c:'var(--ylw)'},{l:'Lagging 🔴',d:quad.lagging,c:'var(--red)'}].map(q=>`<div style="margin-bottom:9px"><div style="font-size:9px;font-weight:700;color:${q.c};letter-spacing:1px;margin-bottom:4px">${q.l}</div><div style="display:flex;flex-wrap:wrap;gap:4px">${(q.d||[]).map(n=>`<span style="background:${q.c}18;border:1px solid ${q.c}44;padding:2px 8px;border-radius:4px;font-size:11px;font-family:var(--mono)">${n}</span>`).join('')||'<span style="color:var(--tx3);font-size:11px">None</span>'}</div></div>`).join(''));
+  
   sv('rrgsig',secs.map((s,i)=>{
     const pts=D.rrgData[s];if(!pts||!pts.length)return'';
     const p=pts[Math.min(endF,pts.length-1)];
@@ -759,12 +862,13 @@ function toggleAnim(){
   rrgAnim=setInterval(()=>{
     rrgF++;
     const slider = document.getElementById('rrgslider');
-    if (slider) slider.value=rrgF;
+    if(slider) slider.value=rrgF;
     drawRRG();rRRGAnalysis();
     if(rrgF>=rrgMax){clearInterval(rrgAnim);rrgAnim=null;document.getElementById('anim-btn').textContent='▶ Animate';}
   },200);
 }
 
+// SWING DEEP
 function rDeep(){
   if(!D)return;
   const st=[...D.stocks].sort((a,b)=>b.swingScore-a.swingScore);
@@ -796,6 +900,7 @@ function rDeep(){
   sv('ma-split',`<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:center"><div style="background:rgba(0,230,118,.08);border:1px solid rgba(0,230,118,.2);border-radius:8px;padding:12px"><div style="font-size:28px;font-weight:800;color:var(--grn)">${above}</div><div style="font-size:11px;color:var(--tx2)">Above MA20</div></div><div style="background:rgba(255,59,85,.06);border:1px solid rgba(255,59,85,.15);border-radius:8px;padding:12px"><div style="font-size:28px;font-weight:800;color:var(--red)">${st.length-above}</div><div style="font-size:11px;color:var(--tx2)">Below MA20</div></div></div>`);
 }
 
+// MARKET DEPTH
 function rDepth(){
   if(!D)return;
   const st=D.stocks||[];
@@ -830,9 +935,11 @@ function rDepth(){
   sv('sec-hm',secs.map((s)=>{const a=0.08+0.25*(Math.abs(s.avgPct)/mx);const col=s.avgPct>=0?'#00e676':'#ff3b55';return`<div class="hm-item" style="background:${col}${Math.round(a*255).toString(16).padStart(2,'0')}"><div class="hm-nm">${s.name}</div><div class="hm-pct" style="color:${col}">${s.avgPct>=0?'+':''}${s.avgPct.toFixed(2)}%</div><div class="hm-sub">${s.count} stk</div></div>`;}).join(''));
 }
 
+// SIMULATOR
 function populateSim(){
   if(!D)return;
-  const sel=document.getElementById('sim-sym'); if(!sel) return;
+  const sel=document.getElementById('sim-sym');
+  if(!sel)return;
   const st=[...D.stocks].sort((a,b)=>b.swingScore-a.swingScore);
   sel.innerHTML='<option value="">— Select stock (sorted by swing score) —</option>'+st.map(r=>`<option value="${r.sym}" data-price="${r.price}" data-rsi="${r.rsi}" data-score="${r.swingScore}" data-candle="${r.dCandle}" data-sector="${r.sector}" data-ma20="${r.ma20}" data-ma50="${r.ma50}" data-atr="${r.atr}">${r.sym} — ${r.name} · Score:${r.swingScore||0} · RSI:${r.rsi||50}</option>`).join('');
 }
@@ -841,7 +948,7 @@ function simPick(){
   const sel=document.getElementById('sim-sym'),opt=sel.options[sel.selectedIndex];
   if(!opt||!opt.dataset.price)return;
   document.getElementById('sim-price').value=parseFloat(opt.dataset.price).toFixed(2);
-  sv('sim-note','✅ Live ₹'+fv(opt.dataset.price)+' · '+D?.fetchedAt);
+  sv('sim-note','✅ Live ₹'+fv(opt.dataset.price)+' · '+(D ? D.fetchedAt : '—'));
   const atr=parseFloat(opt.dataset.atr)||0,price=parseFloat(opt.dataset.price)||1;
   const sugSL=atr>0?Math.round(atr/price*100*2*10)/10:5;
   document.getElementById('sim-sl').value=sugSL;
@@ -862,6 +969,7 @@ function doSim(){
   const rr=(tgt/sl).toFixed(2);
   const slP=(entry*(1-sl/100)).toFixed(2),t1=(entry*(1+tgt/3/100)).toFixed(2),t2=(entry*(1+tgt*2/3/100)).toFixed(2),t3=(entry*(1+tgt/100)).toFixed(2);
   const wp=tgt/sl>=3?70:tgt/sl>=2?62:tgt/sl>=1.5?55:45;
+  
   sv('sim-out',`
   <div class="g3">
     <div class="simrc" style="border-color:${wp>=60?'rgba(0,230,118,.3)':'rgba(255,59,85,.3)'}"><div class="simrt">Win Probability</div><div class="simrv" style="color:${wp>=60?'var(--grn)':'var(--red)'}">${wp}%</div><div style="font-size:11px;color:var(--tx2);margin-top:3px">R:R = 1:${rr}</div></div>
@@ -870,7 +978,7 @@ function doSim(){
   </div>
   <div class="g2">
     <div class="panel"><div class="stitle" style="margin-bottom:10px">Exit Levels — ${sym}</div>
-      <div style="font-family:var(--mono);font-size:10px;color:var(--tx3);margin-bottom:8px">Data from data.json · ${D?.fetchedAt||'—'}</div>
+      <div style="font-family:var(--mono);font-size:10px;color:var(--tx3);margin-bottom:8px">Data from data.json · ${D ? D.fetchedAt : '—'}</div>
       ${[['Target 3',t3,'var(--grn)'],['Target 2',t2,'var(--tel)'],['Target 1',t1,'#80d8ff'],['Entry',fv(entry),'var(--acc)'],['Stop Loss',slP,'var(--red)']].map(([l,v,c])=>`<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 9px;background:${c}10;border-radius:6px;border-left:3px solid ${c};margin-bottom:4px"><span style="font-size:12px;font-weight:600;color:${c}">${l}</span><span style="font-family:var(--mono);font-weight:700;font-size:14px">₹${v}</span></div>`).join('')}
     </div>
     <div class="panel"><div class="stitle" style="margin-bottom:10px">Position Details</div>
@@ -883,9 +991,17 @@ function doSim(){
   </div>`);
 }
 
-window.addEventListener('resize',()=>{const cv=document.getElementById('rrgcv');if(!cv)return;const w=cv.parentElement.clientWidth;cv.width=Math.max(480,w);cv.height=Math.round(cv.width*.69);if(D)drawRRG();});
+// RESIZE HANDLER
+window.addEventListener('resize',()=>{
+  const cv=document.getElementById('rrgcv');
+  if(!cv)return;
+  const w=cv.parentElement.clientWidth;
+  cv.width=Math.max(480,w);
+  cv.height=Math.round(cv.width*.69);
+  if(D) drawRRG();
+});
 
-// Trigger setup immediately instead of relying on the window loading boundaries
+// START
 load();
 setInterval(load, 5*60*1000);
 </script>
