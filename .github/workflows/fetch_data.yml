@@ -33,7 +33,7 @@ jobs:
           import json, sys
           try:
               d = json.load(open('data.json'))
-              print(f'Stocks: {len(d[\"stocks\"])}, Indices: {len(d[\"indices\"])}, At: {d[\"fetchedAt\"]}')
+              print(f'Stocks: {len(d[\"stocks\"])}, Indices: {len(d[\"indices\"])}, At: {d[\"fetchedAt\"]}──')
           except Exception as e:
               print(f'VERIFY FAILED: {e}')
               sys.exit(1)
