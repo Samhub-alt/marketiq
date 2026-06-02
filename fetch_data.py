@@ -1,8 +1,3 @@
-"""
-MarketIQ - NSE Data Fetcher
-Runs via GitHub Actions every 30 minutes
-Saves data to data.json in same folder
-"""
 import yfinance as yf
 import json
 from datetime import datetime, timezone, timedelta
@@ -205,13 +200,10 @@ def fetch_rrg(proxy, bench_cl, bench_dt):
     except Exception as e:
         print(f"  rrg {proxy} error: {e}"); return []
 
-# ── MAIN ─────────────────────────────────────────
 print("="*50)
 print("MarketIQ NSE Fetcher starting...")
 print("="*50)
 
-# Fetch stocks
-print(f"\nFetching {len(STOCKS)} stocks...")
 stocks=[]
 for sym,name,sec,mc in STOCKS:
     print(f"  {sym}...",end="",flush=True)
@@ -229,8 +221,6 @@ if not stocks:
 stocks.sort(key=lambda x:x["chgPct"],reverse=True)
 print(f"\n✅ {len(stocks)} stocks fetched")
 
-# Fetch indices
-print(f"\nFetching {len(INDICES)} indices...")
 indices=[]
 for sym,name in INDICES:
     r=fetch_index(sym,name)
@@ -239,7 +229,6 @@ for sym,name in INDICES:
         print(f"  {name}: ₹{r['price']} ({r['chgPct']:+.2f}%)")
     time.sleep(0.3)
 
-# Fetch RRG
 print("\nFetching RRG data...")
 rrg={}
 try:
@@ -256,7 +245,6 @@ try:
 except Exception as e:
     print(f"RRG error: {e}")
 
-# Build sectors
 sm={}
 for s in stocks:
     k=s["sector"]
