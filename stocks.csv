@@ -1,0 +1,220 @@
+Symbol,Name,Sector,Cap
+RELIANCE,Reliance Ind.,Energy,Largecap
+TCS,TCS,I.T,Largecap
+HDFCBANK,HDFC Bank,Financials,Largecap
+ICICIBANK,ICICI Bank,Financials,Largecap
+INFY,Infosys,I.T,Largecap
+SBIN,State Bank,Financials,Largecap
+BHARTIARTL,Bharti Airtel,Telecom,Largecap
+ITC,ITC,FMCG,Largecap
+LT,Larsen & Toubro,Industrials,Largecap
+BAJFINANCE,Bajaj Finance,Financials,Largecap
+HINDUNILVR,HUL,FMCG,Largecap
+AXISBANK,Axis Bank,Financials,Largecap
+KOTAKBANK,Kotak Bank,Financials,Largecap
+ASIANPAINT,Asian Paints,Chemicals,Largecap
+MARUTI,Maruti Suzuki,Auto,Largecap
+TATAMOTORS,Tata Motors,Auto,Largecap
+SUNPHARMA,Sun Pharma,Healthcare,Largecap
+NTPC,NTPC,Energy,Largecap
+TATASTEEL,Tata Steel,Metals,Largecap
+ONGC,ONGC,Energy,Largecap
+POWERGRID,Power Grid,Energy,Largecap
+COALINDIA,Coal India,Metals,Largecap
+JSWSTEEL,JSW Steel,Metals,Largecap
+BAJAJFINSV,Bajaj Finserv,Financials,Largecap
+ADANIPORTS,Adani Ports,Infrastructure,Largecap
+M&M,M&M,Auto,Largecap
+HCLTECH,HCL Tech,I.T,Largecap
+TITAN,Titan,Consumer,Largecap
+ULTRACEMCO,UltraTech,Materials,Largecap
+WIPRO,Wipro,I.T,Largecap
+BAJAJ-AUTO,Bajaj Auto,Auto,Largecap
+GRASIM,Grasim,Materials,Largecap
+TECHM,Tech Mahindra,I.T,Largecap
+NESTLEIND,Nestle,FMCG,Largecap
+DRREDDY,Dr Reddy,Healthcare,Largecap
+HINDALCO,Hindalco,Metals,Largecap
+DIVISLAB,Divis Labs,Healthcare,Largecap
+CIPLA,Cipla,Healthcare,Largecap
+APOLLOHOSP,Apollo Hosp,Healthcare,Largecap
+EICHERMOT,Eicher Motors,Auto,Largecap
+TATACONSUM,Tata Consumer,FMCG,Largecap
+BRITANNIA,Britannia,FMCG,Largecap
+HEROMOTOCO,Hero MotoCorp,Auto,Largecap
+UPL,UPL,Chemicals,Largecap
+BPCL,BPCL,Energy,Largecap
+INDUSINDBK,IndusInd Bank,Financials,Largecap
+SHREECEM,Shree Cements,Materials,Largecap
+SBILIFE,SBI Life,Financials,Largecap
+TRENT,Trent,Consumer,Largecap
+BEL,Bharat Electronics,Industrials,Largecap
+CHOLAFIN,Chola Fin,Financials,Midcap
+HAL,HAL,Industrials,Midcap
+SIEMENS,Siemens,Industrials,Midcap
+DLF,DLF,Realty,Midcap
+VBL,Varun Beverages,FMCG,Midcap
+TVSMOTOR,TVS Motor,Auto,Midcap
+ABB,ABB India,Industrials,Midcap
+ZYDUSLIFE,Zydus Life,Healthcare,Midcap
+GAIL,GAIL,Energy,Midcap
+PIIND,PI Ind,Chemicals,Midcap
+AMBUJACEM,Ambuja Cements,Materials,Midcap
+HAVELLS,Havells,Industrials,Midcap
+POLYCAB,Polycab,Industrials,Midcap
+BANKBARODA,Bank of Baroda,Financials,Midcap
+INDIGO,IndiGo,Services,Midcap
+IOC,IOCL,Energy,Midcap
+JINDALSTEL,Jindal Steel,Metals,Midcap
+TORNTPHARM,Torrent Pharma,Healthcare,Midcap
+SHRIRAMFC,Shriram Fin,Financials,Midcap
+MOTHERSON,Motherson,Auto,Midcap
+MAXHEALTH,Max Healthcare,Healthcare,Midcap
+CUMMINSIND,Cummins,Industrials,Midcap
+CGPOWER,CG Power,Industrials,Midcap
+DIXON,Dixon Tech,Consumer,Midcap
+BHARATFORG,Bharat Forge,Auto,Midcap
+ALKEM,Alkem Labs,Healthcare,Midcap
+TATACHEM,Tata Chem,Chemicals,Midcap
+AUBANK,AU Small Finance,Financials,Midcap
+MUTHOOTFIN,Muthoot Fin,Financials,Midcap
+PRESTIGE,Prestige Estates,Realty,Midcap
+PERSISTENT,Persistent Sys,I.T,Midcap
+COLPAL,Colgate Palmolive,FMCG,Midcap
+TIINDIA,Tube Investments,Industrials,Midcap
+LUPIN,Lupin,Healthcare,Midcap
+TATACOMM,Tata Comm,Telecom,Midcap
+MARICO,Marico,FMCG,Midcap
+COROMANDEL,Coromandel Int,Chemicals,Midcap
+M&MFIN,M&M Fin Services,Financials,Midcap
+PETRONET,Petronet LNG,Energy,Midcap
+ESCORTS,Escorts Kubota,Auto,Midcap
+GODREJPROP,Godrej Prop,Realty,Midcap
+BALKRISIND,Balkrishna Ind,Auto,Midcap
+GUJGASLTD,Gujarat Gas,Energy,Midcap
+IGL,IGL,Energy,Midcap
+VOLTAS,Voltas,Consumer,Midcap
+MPHASIS,Mphasis,I.T,Midcap
+CONCOR,Concor,Services,Midcap
+LALPATHLAB,Dr Lal Pathlabs,Healthcare,Midcap
+LICHSGFIN,LIC Housing,Financials,Midcap
+BIOCON,Biocon,Healthcare,Midcap
+HDFCAMC,HDFC AMC,Financials,Midcap
+SYNGENE,Syngene,Healthcare,Midcap
+COFORGE,Coforge,I.T,Midcap
+HINDPETRO,HPCL,Energy,Midcap
+ICICIGI,ICICI Lombard,Financials,Midcap
+ICICIPRULI,ICICI Pru Life,Financials,Midcap
+ASHOKLEY,Ashok Leyland,Auto,Midcap
+APLAPOLLO,APL Apollo Tubes,Materials,Midcap
+ABFRL,Aditya Birla Fash,Consumer,Midcap
+UBL,United Breweries,FMCG,Midcap
+PAGEIND,Page Industries,Consumer,Midcap
+BATAINDIA,Bata India,Consumer,Midcap
+PHOENIXLTD,Phoenix Mills,Realty,Midcap
+BERGEPAINT,Berger Paints,Chemicals,Midcap
+OBEROIRLTY,Oberoi Realty,Realty,Midcap
+ASTRAL,Astral,Materials,Midcap
+IDEA,Vodafone Idea,Telecom,Midcap
+TATAELXSI,Tata Elxsi,I.T,Midcap
+OFSS,Oracle Fin,I.T,Midcap
+LTIM,LTIMindtree,I.T,Largecap
+SRF,SRF Ltd,Chemicals,Midcap
+AUROPHARMA,Aurobindo Pharma,Healthcare,Midcap
+PNB,PNB,Financials,Largecap
+CANBK,Canara Bank,Financials,Midcap
+UNIONBANK,Union Bank,Financials,Midcap
+IDFCFIRSTB,IDFC First Bank,Financials,Midcap
+FEDERALBNK,Federal Bank,Financials,Midcap
+BANDHANBNK,Bandhan Bank,Financials,Midcap
+PEL,Piramal Ent,Financials,Midcap
+BOSCHLTD,Bosch,Auto,Midcap
+MRF,MRF,Auto,Largecap
+NAUKRI,Info Edge,Technology,Midcap
+ZOMATO,Zomato,Technology,Largecap
+NYKAA,FSN E-Commerce,Technology,Midcap
+POLICYBZR,PB Fintech,Technology,Midcap
+PAYTM,One97 Comm,Technology,Midcap
+DELHIVERY,Delhivery,Technology,Midcap
+TATAINVEST,Tata Investment,Financials,Midcap
+KALYANKJIL,Kalyan Jewellers,Consumer,Midcap
+FACT,FACT,Chemicals,Midcap
+RVNL,Rail Vikas Nigam,Industrials,Midcap
+IREDA,IREDA,Financials,Midcap
+IRFC,IRFC,Financials,Largecap
+IRCTC,IRCTC,Services,Midcap
+MAZDOCK,Mazagon Dock,Industrials,Midcap
+COCHINSHIP,Cochin Shipyard,Industrials,Midcap
+GRSE,Garden Reach,Industrials,Midcap
+BDL,Bharat Dynamics,Industrials,Midcap
+BEML,BEML,Industrials,Midcap
+BHEL,BHEL,Industrials,Largecap
+RAILTEL,RailTel,Telecom,Smallcap
+RITES,RITES,Industrials,Smallcap
+HUDCO,HUDCO,Financials,Midcap
+SJVN,SJVN,Energy,Midcap
+NBCC,NBCC,Realty,Midcap
+NHPC,NHPC,Energy,Midcap
+NLCINDIA,NLC India,Energy,Midcap
+RECLTD,REC Ltd,Financials,Largecap
+INDIANB,Indian Bank,Financials,Midcap
+BANKINDIA,Bank of India,Financials,Midcap
+MAHABANK,Bank of Maharashtra,Financials,Midcap
+CENTRALBK,Central Bank,Financials,Midcap
+IOB,Indian Overseas,Financials,Midcap
+UCOBANK,UCO Bank,Financials,Midcap
+PSPBANK,Punjab & Sind,Financials,Smallcap
+LODHA,Macrotech Dev,Realty,Midcap
+BRIGADE,Brigade Ent,Realty,Smallcap
+SOBHA,Sobha,Realty,Smallcap
+MCX,MCX India,Financials,Smallcap
+CARTRADE,CarTrade Tech,Technology,Smallcap
+ANGELONE,Angel One,Financials,Midcap
+CDSL,CDSL,Financials,Midcap
+BSE,BSE Ltd,Financials,Midcap
+IEX,IEX,Financials,Midcap
+CAMS,CAMS,Financials,Midcap
+KFINTECH,KFin Tech,Financials,Midcap
+MOTILALOFS,Motilal Oswal,Financials,Midcap
+SUZLON,Suzlon Energy,Energy,Midcap
+SUPREMEIND,Supreme Ind,Materials,Midcap
+FINCABLES,Finolex Cables,Industrials,Smallcap
+KEI,KEI Industries,Industrials,Midcap
+JSL,Jindal Stainless,Metals,Midcap
+NMDC,NMDC,Metals,Midcap
+SAIL,SAIL,Metals,Midcap
+NATIONALUM,NALCO,Metals,Midcap
+HINDCOPPER,Hindustan Copper,Metals,Midcap
+GMDC,GMDC,Metals,Smallcap
+HINDZINC,Hindustan Zinc,Metals,Largecap
+GLENMARK,Glenmark Pharma,Healthcare,Midcap
+LAURUSLABS,Laurus Labs,Healthcare,Midcap
+GRANULES,Granules India,Healthcare,Smallcap
+AJANTPHARM,Ajanta Pharma,Healthcare,Midcap
+IPCALAB,IPCA Labs,Healthcare,Midcap
+JBCHEPHARM,JB Chemicals,Healthcare,Midcap
+AARTIIND,Aarti Industries,Chemicals,Midcap
+DEEPAKNTR,Deepak Nitrite,Chemicals,Midcap
+NAVINFLUOR,Navin Fluorine,Chemicals,Midcap
+ATUL,Atul Ltd,Chemicals,Midcap
+VINATIORGA,Vinati Organics,Chemicals,Midcap
+GUJALKALI,Gujarat Alkalies,Chemicals,Smallcap
+GNFC,GNFC,Chemicals,Smallcap
+GSFC,GSFC,Chemicals,Smallcap
+CHAMBLFERT,Chambal Fert,Chemicals,Smallcap
+RELAXO,Relaxo Footwears,Consumer,Midcap
+METROBRAND,Metro Brands,Consumer,Midcap
+VMART,V-Mart Retail,Consumer,Smallcap
+SHOPPERS,Shoppers Stop,Consumer,Smallcap
+KANSAINER,Kansai Nerolac,Chemicals,Midcap
+CEATLTD,CEAT,Auto,Smallcap
+APOLLOTYRE,Apollo Tyres,Auto,Midcap
+JKTYRE,JK Tyre,Auto,Smallcap
+KPITTECH,KPIT Tech,I.T,Midcap
+BSOFT,Birlasoft,I.T,Midcap
+SONATA,Sonata Software,I.T,Smallcap
+CYIENT,Cyient,I.T,Midcap
+ZENSARTECH,Zensar Tech,I.T,Smallcap
+INTELLECT,Intellect Design,I.T,Smallcap
+HAPPSTMNDS,Happiest Minds,I.T,Smallcap
+ROUTE,Route Mobile,Technology,Smallcap
