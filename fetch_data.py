@@ -1,15 +1,79 @@
 """
-MarketIQ - NSE Data Fetcher (Nifty 500 Edition)
+MarketIQ - NSE Data Fetcher (Bulletproof Edition)
 Runs via GitHub Actions every 30 minutes
-Automatically fetches all 500 stocks from NSE and runs VCP/Squeeze math
+Scans stocks.csv if found, otherwise uses built-in Top 60 matrix
 """
 import yfinance as yf
 import json
 import csv
-import requests
+import os
 from datetime import datetime, timezone, timedelta
 import time
 import sys
+
+# ─── INDESTRUCTIBLE FALLBACK LIST (Top 60 NSE Stocks) ───
+DEFAULT_STOCKS = [
+    ("RELIANCE.NS", "Reliance Ind.", "Energy", "Largecap"),
+    ("TCS.NS", "TCS", "I.T", "Largecap"),
+    ("HDFCBANK.NS", "HDFC Bank", "Financials", "Largecap"),
+    ("ICICIBANK.NS", "ICICI Bank", "Financials", "Largecap"),
+    ("INFY.NS", "Infosys", "I.T", "Largecap"),
+    ("SBIN.NS", "SBI", "Financials", "Largecap"),
+    ("BHARTIARTL.NS", "Airtel", "Telecom", "Largecap"),
+    ("ITC.NS", "ITC", "FMCG", "Largecap"),
+    ("LT.NS", "Larsen & Toubro", "Industrials", "Largecap"),
+    ("BAJFINANCE.NS", "Bajaj Finance", "Financials", "Largecap"),
+    ("HINDUNILVR.NS", "HUL", "FMCG", "Largecap"),
+    ("AXISBANK.NS", "Axis Bank", "Financials", "Largecap"),
+    ("KOTAKBANK.NS", "Kotak Bank", "Financials", "Largecap"),
+    ("ASIANPAINT.NS", "Asian Paints", "Chemicals", "Largecap"),
+    ("MARUTI.NS", "Maruti Suzuki", "Auto", "Largecap"),
+    ("TATAMOTORS.NS", "Tata Motors", "Auto", "Largecap"),
+    ("SUNPHARMA.NS", "Sun Pharma", "Healthcare", "Largecap"),
+    ("NTPC.NS", "NTPC", "Energy", "Largecap"),
+    ("TATASTEEL.NS", "Tata Steel", "Metals", "Largecap"),
+    ("ONGC.NS", "ONGC", "Energy", "Largecap"),
+    ("POWERGRID.NS", "Power Grid", "Energy", "Largecap"),
+    ("COALINDIA.NS", "Coal India", "Metals", "Largecap"),
+    ("JSWSTEEL.NS", "JSW Steel", "Metals", "Largecap"),
+    ("BAJAJFINSV.NS", "Bajaj Finserv", "Financials", "Largecap"),
+    ("ADANIPORTS.NS", "Adani Ports", "Infrastructure", "Largecap"),
+    ("M&M.NS", "M&M", "Auto", "Largecap"),
+    ("HCLTECH.NS", "HCL Tech", "I.T", "Largecap"),
+    ("TITAN.NS", "Titan", "Consumer", "Largecap"),
+    ("ULTRACEMCO.NS", "UltraTech", "Materials", "Largecap"),
+    ("WIPRO.NS", "Wipro", "I.T", "Largecap"),
+    ("BAJAJ-AUTO.NS", "Bajaj Auto", "Auto", "Largecap"),
+    ("GRASIM.NS", "Grasim", "Materials", "Largecap"),
+    ("TECHM.NS", "Tech Mahindra", "I.T", "Largecap"),
+    ("NESTLEIND.NS", "Nestle", "FMCG", "Largecap"),
+    ("DRREDDY.NS", "Dr Reddy", "Healthcare", "Largecap"),
+    ("HINDALCO.NS", "Hindalco", "Metals", "Largecap"),
+    ("DIVISLAB.NS", "Divis Labs", "Healthcare", "Largecap"),
+    ("CIPLA.NS", "Cipla", "Healthcare", "Largecap"),
+    ("APOLLOHOSP.NS", "Apollo Hosp", "Healthcare", "Largecap"),
+    ("EICHERMOT.NS", "Eicher", "Auto", "Largecap"),
+    ("TATACONSUM.NS", "Tata Cons", "FMCG", "Largecap"),
+    ("BRITANNIA.NS", "Britannia", "FMCG", "Largecap"),
+    ("HEROMOTOCO.NS", "Hero Moto", "Auto", "Largecap"),
+    ("UPL.NS", "UPL", "Chemicals", "Largecap"),
+    ("BPCL.NS", "BPCL", "Energy", "Largecap"),
+    ("INDUSINDBK.NS", "IndusInd Bank", "Financials", "Largecap"),
+    ("SHREECEM.NS", "Shree Cem", "Materials", "Largecap"),
+    ("SBILIFE.NS", "SBI Life", "Financials", "Largecap"),
+    ("TRENT.NS", "Trent", "Consumer", "Largecap"),
+    ("CHOLAFIN.NS", "Chola Fin", "Financials", "Largecap"),
+    ("HAL.NS", "HAL", "Industrials", "Largecap"),
+    ("SIEMENS.NS", "Siemens", "Industrials", "Largecap"),
+    ("DLF.NS", "DLF", "Realty", "Largecap"),
+    ("VBL.NS", "Varun Bev", "FMCG", "Largecap"),
+    ("BEL.NS", "BEL", "Industrials", "Largecap"),
+    ("TVSMOTOR.NS", "TVS Motor", "Auto", "Largecap"),
+    ("ABB.NS", "ABB India", "Industrials", "Largecap"),
+    ("ZYDUSLIFE.NS", "Zydus Life", "Healthcare", "Largecap"),
+    ("GAIL.NS", "GAIL", "Energy", "Largecap"),
+    ("PIIND.NS", "PI Ind", "Chemicals", "Largecap")
+]
 
 INDICES = [
     ("^NSEI",      "Nifty 50"),
@@ -121,14 +185,10 @@ def fetch_stock(sym, name, sector, mcap):
         if 50<=rsi<=70: sw+=20
         if trend>=2: sw+=20
         
-        # ──────────────────────────────────────────────
-        # ADVANCED VCP & VOLUME SQUEEZE RADAR MATH
-        # ──────────────────────────────────────────────
-        # Stage 2 Uptrend verification (Minervini Template)
+        # VCP Squeeze Math
         stage2 = price > ma50 and price > ma150 and price > ma200 and ma150 > ma200
         near_highs = price >= hi52 * 0.78 and price >= lo52 * 1.25
         
-        # Squeeze Contraction: Volatility and Volume Drying Up
         recent_trs = [hi[i]-lo[i] for i in range(max(0, n-5), n)]
         atr5 = sum(recent_trs)/5 if recent_trs else 1
         recent_vols = vo[-5:]
@@ -186,59 +246,53 @@ def fetch_rrg_daily(proxy, bench_cl, bench_dt):
             if base is None: base=rs
             if not base: continue
             rn=(rs/base)*100
-            rp=(sc[max(0,i-5)]/bc)/base*100 if i haste else rn
+            rp=(sc[max(0,i-5)]/bc)/base*100 if i >= 5 else rn
             pts.append({"date":d,"x":round(rn,3),"y":round(100+(rn-rp)*3.0,3)})
         return pts[-40:]
     except: return []
 
-# ── MAIN ENGINE ENGINE ───────────────────────────
 print("="*60)
-print("MarketIQ Live Nifty 500 Automated Data Downloader")
+print("MarketIQ Live Data Downloader")
 print("="*60)
 
-# Fetching the official Nifty 500 file directly from NSE
-print("Downloading live Nifty 500 matrix list from NSE servers...")
 STOCKS_LIST = []
-try:
-    url = "https://archives.nseindia.com/content/indices/ind_nifty500list.csv"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-    r = requests.get(url, headers=headers, timeout=15)
-    lines = r.text.splitlines()
-    reader = csv.reader(lines)
-    header = next(reader) # skip headers
-    
-    count = 0
-    for row in reader:
-        if len(row) >= 3:
-            sym = row[2].strip()
-            name = row[0].strip()
-            industry = row[1].strip()
-            # Dynamic Cap Stratification by SEBI sizing rules
-            if count <= 100: cap = "Largecap"
-            elif count <= 250: cap = "Midcap"
-            else: cap = "Smallcap"
-            
-            STOCKS_LIST.append((sym + ".NS", name, industry, cap))
-            count += 1
-except Exception as e:
-    print(f"NSE Live Link failed ({e}). Running default fallbacks.")
-    STOCKS_LIST = [((s[0] if s[0].endswith(".NS") else s[0]+".NS"), s[1], s[2], s[3]) for s in STOCKS]
 
+# 1. Attempt to load Custom stocks.csv File
+if os.path.exists("stocks.csv"):
+    print("Found stocks.csv! Loading custom stock list...")
+    try:
+        with open("stocks.csv", "r", encoding="utf-8") as f:
+            reader = csv.reader(f)
+            next(reader, None) # skip header
+            for row in reader:
+                if row and len(row) >= 1:
+                    sym = row[0].strip()
+                    if not sym: continue
+                    if not sym.endswith(".NS"): sym += ".NS"
+                    name = row[1].strip() if len(row) > 1 else sym.replace(".NS","")
+                    sec = row[2].strip() if len(row) > 2 else "General"
+                    cap = row[3].strip() if len(row) > 3 else "Unknown"
+                    STOCKS_LIST.append((sym, name, sec, cap))
+    except Exception as e:
+        print(f"Error reading stocks.csv: {e}")
+
+# 2. Crash-Proof Fallback
 if not STOCKS_LIST:
-    print("Execution failure: No target symbols parsed."); sys.exit(1)
+    print("Using built-in Top 60 NSE Array (Safe Mode)...")
+    STOCKS_LIST = DEFAULT_STOCKS
 
-print(f"Targeting {len(STOCKS_LIST)} stocks across all caps.")
+print(f"Targeting {len(STOCKS_LIST)} total stocks.")
 
 stocks=[]
 for i, (sym,name,sec,mc) in enumerate(STOCKS_LIST):
-    print(f"[{i+1}/{len(STOCKS_LIST)}] Processing {sym}...", end="", flush=True)
+    print(f"[{i+1}/{len(STOCKS_LIST)}] {sym}...", end="", flush=True)
     r=fetch_stock(sym,name,sec,mc)
     if r:
         stocks.append(r)
         print(f" OK ({r['chgPct']:+.2f}%)")
     else:
         print(" SKIPPED")
-    time.sleep(0.1) # Accelerated performance pipeline
+    time.sleep(0.1)
 
 stocks.sort(key=lambda x:x["chgPct"],reverse=True)
 
@@ -289,4 +343,4 @@ out={
 
 with open("data.json","w") as f:
     json.dump(out,f,indent=2)
-print("✅ data.json successfully updated via automated Nifty 500 Engine.")
+print("✅ data.json successfully updated.")
