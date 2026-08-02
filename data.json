@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "02/08/2026, 12:20:29 AM IST",
-  "fetchedAtISO": "2026-08-01T18:50:29.725082+00:00",
+  "fetchedAt": "02/08/2026, 06:57:14 AM IST",
+  "fetchedAtISO": "2026-08-02T01:27:14.415499+00:00",
   "marketStatus": "Closed",
   "totalStocks": 209,
   "stocks": [
@@ -880,7 +880,7 @@
       "qCandle": "Dragonfly Doji",
       "trend": 1,
       "near52w": false,
-      "hi52": 48400.71,
+      "hi52": 48400.7,
       "rsi": 67.2,
       "atr": 842.86,
       "ma20": 40611.75,
