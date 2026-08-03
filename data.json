@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "03/08/2026, 03:42:38 PM IST",
-  "fetchedAtISO": "2026-08-03T10:12:38.159318+00:00",
+  "fetchedAt": "03/08/2026, 06:54:38 PM IST",
+  "fetchedAtISO": "2026-08-03T13:24:38.615791+00:00",
   "marketStatus": "Closed",
   "totalStocks": 209,
   "stocks": [
@@ -6160,7 +6160,7 @@
       "qCandle": "Bullish Candle",
       "trend": 0,
       "near52w": false,
-      "hi52": 163308.5,
+      "hi52": 163308.49,
       "rsi": 59.9,
       "atr": 1786.79,
       "ma20": 133001.13,
