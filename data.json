@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "11/08/2026, 03:57:36 PM IST",
-  "fetchedAtISO": "2026-08-11T10:27:36.638610+00:00",
+  "fetchedAt": "11/08/2026, 04:46:26 PM IST",
+  "fetchedAtISO": "2026-08-11T11:16:26.653778+00:00",
   "marketStatus": "Closed",
   "totalStocks": 209,
   "stocks": [
@@ -6556,7 +6556,7 @@
       "qCandle": "Doji",
       "trend": 0,
       "near52w": false,
-      "hi52": 163308.49,
+      "hi52": 163308.5,
       "rsi": 40.4,
       "atr": 1763.21,
       "ma20": 132743.16,
