@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "06/09/2026, 08:00:52 PM IST",
-  "fetchedAtISO": "2026-09-06T14:30:52.645181+00:00",
+  "fetchedAt": "07/09/2026, 01:11:28 AM IST",
+  "fetchedAtISO": "2026-09-06T19:41:28.971172+00:00",
   "marketStatus": "Closed",
   "totalStocks": 208,
   "stocks": [
@@ -3784,7 +3784,7 @@
       "qCandle": "Inverted Hammer",
       "trend": 0,
       "near52w": false,
-      "hi52": 163308.49,
+      "hi52": 163308.5,
       "rsi": 39.3,
       "atr": 2082.5,
       "ma20": 132566.25,
