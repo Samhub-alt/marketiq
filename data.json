@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "19/09/2026, 08:26:56 PM IST",
-  "fetchedAtISO": "2026-09-19T14:56:56.689732+00:00",
+  "fetchedAt": "20/09/2026, 01:13:02 AM IST",
+  "fetchedAtISO": "2026-09-19T19:43:02.000539+00:00",
   "marketStatus": "Closed",
   "totalStocks": 208,
   "stocks": [
@@ -781,7 +781,7 @@
       "qCandle": "Bearish Candle",
       "trend": 2,
       "near52w": false,
-      "hi52": 44914.71,
+      "hi52": 44914.72,
       "rsi": 54.6,
       "atr": 798.93,
       "ma20": 35586.5,
@@ -9103,7 +9103,7 @@
       "qCandle": "Bearish Candle",
       "trend": 2,
       "near52w": false,
-      "hi52": 44914.71,
+      "hi52": 44914.72,
       "rsi": 54.6,
       "atr": 798.93,
       "ma20": 35586.5,
