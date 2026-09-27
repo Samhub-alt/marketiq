@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "27/09/2026, 04:27:15 PM IST",
-  "fetchedAtISO": "2026-09-27T10:57:15.944373+00:00",
+  "fetchedAt": "27/09/2026, 09:25:17 PM IST",
+  "fetchedAtISO": "2026-09-27T15:55:17.719588+00:00",
   "marketStatus": "Closed",
   "totalStocks": 208,
   "stocks": [
@@ -5368,15 +5368,15 @@
       "qCandle": "Bearish Candle",
       "trend": 0,
       "near52w": false,
-      "hi52": 1480.0,
+      "hi52": 1467.63,
       "rsi": 11.4,
       "atr": 18.42,
       "ma20": 1380.62,
-      "ma50": 1411.65,
+      "ma50": 1409.24,
       "ret5d": -1.35,
       "ret20d": -8.75,
-      "ret60d": -7.02,
-      "momScore": -4.7,
+      "ret60d": -6.23,
+      "momScore": -4.55,
       "swingScore": 0,
       "aboveMA20": false,
       "aboveMA50": false,
@@ -6972,9 +6972,9 @@
       "name": "Financials",
       "count": 43,
       "pctSum": 5.700000000000001,
-      "momSum": -102.2,
+      "momSum": -102.05,
       "avgPct": 0.13,
-      "avgMom": -2.38
+      "avgMom": -2.37
     },
     {
       "name": "FMCG",
