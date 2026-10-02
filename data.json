@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "01/10/2026, 10:21:46 PM IST",
-  "fetchedAtISO": "2026-10-01T16:51:46.502257+00:00",
-  "marketStatus": "Closed",
+  "fetchedAt": "02/10/2026, 02:48:02 PM IST",
+  "fetchedAtISO": "2026-10-02T09:18:02.422248+00:00",
+  "marketStatus": "Open",
   "totalStocks": 208,
   "stocks": [
     {
@@ -15,7 +15,7 @@
       "open": 2160.1,
       "high": 2265.0,
       "low": 2160.1,
-      "vol": 1178135,
+      "vol": 1178274,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Hammer",
       "mCandle": "Bearish Candle",
@@ -48,7 +48,7 @@
       "open": 1764.8,
       "high": 1831.0,
       "low": 1763.6,
-      "vol": 3418803,
+      "vol": 3419070,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -81,7 +81,7 @@
       "open": 1010.0,
       "high": 1035.0,
       "low": 999.15,
-      "vol": 15061214,
+      "vol": 15166446,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -147,7 +147,7 @@
       "open": 861.0,
       "high": 889.9,
       "low": 859.6,
-      "vol": 4630394,
+      "vol": 4633143,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Doji",
@@ -180,7 +180,7 @@
       "open": 422.5,
       "high": 438.0,
       "low": 421.05,
-      "vol": 1843443,
+      "vol": 1843893,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -246,7 +246,7 @@
       "open": 1020.0,
       "high": 1041.8,
       "low": 1019.7,
-      "vol": 2029891,
+      "vol": 2030089,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -312,7 +312,7 @@
       "open": 4789.9,
       "high": 4860.0,
       "low": 4760.0,
-      "vol": 393675,
+      "vol": 393680,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -378,7 +378,7 @@
       "open": 708.4,
       "high": 721.3,
       "low": 707.1,
-      "vol": 37147457,
+      "vol": 37389857,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Doji",
       "mCandle": "Bullish Candle",
@@ -411,7 +411,7 @@
       "open": 5276.0,
       "high": 5396.0,
       "low": 5250.5,
-      "vol": 506172,
+      "vol": 506268,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -444,7 +444,7 @@
       "open": 1640.0,
       "high": 1697.9,
       "low": 1617.5,
-      "vol": 140765,
+      "vol": 140782,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -477,7 +477,7 @@
       "open": 317.0,
       "high": 324.95,
       "low": 316.0,
-      "vol": 7907117,
+      "vol": 7907193,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -510,7 +510,7 @@
       "open": 1676.3,
       "high": 1730.3,
       "low": 1674.8,
-      "vol": 3329762,
+      "vol": 3329860,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bearish Candle",
       "mCandle": "Doji",
@@ -543,7 +543,7 @@
       "open": 79.37,
       "high": 81.13,
       "low": 78.87,
-      "vol": 9604814,
+      "vol": 9608211,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -576,7 +576,7 @@
       "open": 413.75,
       "high": 428.15,
       "low": 411.35,
-      "vol": 12667884,
+      "vol": 12669050,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Doji",
@@ -609,7 +609,7 @@
       "open": 919.85,
       "high": 950.0,
       "low": 902.05,
-      "vol": 5463802,
+      "vol": 5464461,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -642,7 +642,7 @@
       "open": 2282.0,
       "high": 2321.1,
       "low": 2269.7,
-      "vol": 1134010,
+      "vol": 1134071,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -675,7 +675,7 @@
       "open": 2052.6,
       "high": 2093.9,
       "low": 2045.1,
-      "vol": 3427531,
+      "vol": 3428501,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Marubozu",
@@ -708,7 +708,7 @@
       "open": 5150.0,
       "high": 5220.0,
       "low": 5110.0,
-      "vol": 290969,
+      "vol": 291015,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -741,7 +741,7 @@
       "open": 1230.0,
       "high": 1256.0,
       "low": 1228.9,
-      "vol": 3429976,
+      "vol": 3430282,
       "dCandle": "Bullish Candle",
       "wCandle": "Doji",
       "mCandle": "Bearish Candle",
@@ -774,7 +774,7 @@
       "open": 4455.0,
       "high": 4558.0,
       "low": 4424.2,
-      "vol": 320836,
+      "vol": 320912,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -807,7 +807,7 @@
       "open": 274.0,
       "high": 279.85,
       "low": 267.8,
-      "vol": 6750389,
+      "vol": 6751156,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Shooting Star",
@@ -840,7 +840,7 @@
       "open": 443.8,
       "high": 450.55,
       "low": 441.8,
-      "vol": 1267486,
+      "vol": 1267559,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -873,7 +873,7 @@
       "open": 671.0,
       "high": 682.0,
       "low": 665.45,
-      "vol": 1577135,
+      "vol": 1577224,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -906,7 +906,7 @@
       "open": 1975.7,
       "high": 2027.6,
       "low": 1936.2,
-      "vol": 542968,
+      "vol": 542969,
       "dCandle": "Bullish Candle",
       "wCandle": "Hammer",
       "mCandle": "Bullish Candle",
@@ -939,7 +939,7 @@
       "open": 1929.9,
       "high": 1966.8,
       "low": 1880.8,
-      "vol": 323964,
+      "vol": 323967,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -972,7 +972,7 @@
       "open": 952.0,
       "high": 964.8,
       "low": 945.0,
-      "vol": 1829128,
+      "vol": 1829307,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -1038,7 +1038,7 @@
       "open": 3266.2,
       "high": 3300.0,
       "low": 3197.0,
-      "vol": 49710,
+      "vol": 49734,
       "dCandle": "Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1071,7 +1071,7 @@
       "open": 1540.0,
       "high": 1554.8,
       "low": 1512.0,
-      "vol": 2662773,
+      "vol": 2663224,
       "dCandle": "Hanging Man",
       "wCandle": "Hanging Man",
       "mCandle": "Bearish Candle",
@@ -1104,7 +1104,7 @@
       "open": 1448.2,
       "high": 1477.5,
       "low": 1428.9,
-      "vol": 598630,
+      "vol": 598654,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -1137,7 +1137,7 @@
       "open": 2472.5,
       "high": 2494.9,
       "low": 2431.7,
-      "vol": 352331,
+      "vol": 352530,
       "dCandle": "Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1170,7 +1170,7 @@
       "open": 158.61,
       "high": 160.95,
       "low": 157.25,
-      "vol": 18519625,
+      "vol": 18521731,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -1203,7 +1203,7 @@
       "open": 170.6,
       "high": 171.89,
       "low": 168.55,
-      "vol": 6880267,
+      "vol": 6882008,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -1236,7 +1236,7 @@
       "open": 284.5,
       "high": 287.5,
       "low": 283.45,
-      "vol": 1678501,
+      "vol": 1678508,
       "dCandle": "Bullish Candle",
       "wCandle": "Shooting Star",
       "mCandle": "Bearish Candle",
@@ -1269,7 +1269,7 @@
       "open": 1100.0,
       "high": 1112.2,
       "low": 1068.0,
-      "vol": 594959,
+      "vol": 594962,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -1302,7 +1302,7 @@
       "open": 426.0,
       "high": 435.6,
       "low": 416.05,
-      "vol": 76628600,
+      "vol": 76637247,
       "dCandle": "Bearish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Doji",
@@ -1335,7 +1335,7 @@
       "open": 1750.2,
       "high": 1775.9,
       "low": 1701.0,
-      "vol": 239103,
+      "vol": 239111,
       "dCandle": "Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1368,7 +1368,7 @@
       "open": 1677.9,
       "high": 1700.7,
       "low": 1654.2,
-      "vol": 1074037,
+      "vol": 1074057,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Doji",
@@ -1401,7 +1401,7 @@
       "open": 1475.6,
       "high": 1500.9,
       "low": 1445.0,
-      "vol": 1381142,
+      "vol": 1381292,
       "dCandle": "Bullish Candle",
       "wCandle": "Hammer",
       "mCandle": "Bearish Candle",
@@ -1434,7 +1434,7 @@
       "open": 316.1,
       "high": 321.35,
       "low": 313.75,
-      "vol": 11278303,
+      "vol": 11278668,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1467,7 +1467,7 @@
       "open": 211.03,
       "high": 216.99,
       "low": 203.33,
-      "vol": 21390050,
+      "vol": 21390228,
       "dCandle": "Hanging Man",
       "wCandle": "Bullish Candle",
       "mCandle": "Hanging Man",
@@ -1500,7 +1500,7 @@
       "open": 1973.6,
       "high": 2006.9,
       "low": 1952.1,
-      "vol": 1459404,
+      "vol": 1459687,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -1533,7 +1533,7 @@
       "open": 2391.0,
       "high": 2420.0,
       "low": 2377.0,
-      "vol": 1005439,
+      "vol": 1005836,
       "dCandle": "Bullish Candle",
       "wCandle": "Doji",
       "mCandle": "Bearish Candle",
@@ -1566,7 +1566,7 @@
       "open": 3099.9,
       "high": 3164.4,
       "low": 3046.2,
-      "vol": 333334,
+      "vol": 333513,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -1599,7 +1599,7 @@
       "open": 230.0,
       "high": 233.99,
       "low": 229.52,
-      "vol": 9033217,
+      "vol": 9034271,
       "dCandle": "Inverted Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1632,7 +1632,7 @@
       "open": 370.55,
       "high": 374.25,
       "low": 363.6,
-      "vol": 2525166,
+      "vol": 2525268,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1665,7 +1665,7 @@
       "open": 1723.0,
       "high": 1734.9,
       "low": 1703.4,
-      "vol": 2291308,
+      "vol": 2292234,
       "dCandle": "Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1698,7 +1698,7 @@
       "open": 2030.3,
       "high": 2044.1,
       "low": 2004.2,
-      "vol": 825855,
+      "vol": 825892,
       "dCandle": "Dragonfly Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1731,7 +1731,7 @@
       "open": 935.0,
       "high": 946.65,
       "low": 923.5,
-      "vol": 5877274,
+      "vol": 5877840,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1764,7 +1764,7 @@
       "open": 402.0,
       "high": 406.75,
       "low": 392.85,
-      "vol": 708171,
+      "vol": 708176,
       "dCandle": "Hammer",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -1797,7 +1797,7 @@
       "open": 1349.1,
       "high": 1359.4,
       "low": 1333.4,
-      "vol": 921701,
+      "vol": 921789,
       "dCandle": "Hanging Man",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1830,7 +1830,7 @@
       "open": 2339.0,
       "high": 2360.0,
       "low": 2279.3,
-      "vol": 972519,
+      "vol": 972522,
       "dCandle": "Dragonfly Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1863,7 +1863,7 @@
       "open": 1301.9,
       "high": 1320.9,
       "low": 1295.0,
-      "vol": 1626454,
+      "vol": 1626876,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -1896,7 +1896,7 @@
       "open": 1935.0,
       "high": 1963.1,
       "low": 1911.8,
-      "vol": 555488,
+      "vol": 555494,
       "dCandle": "Doji",
       "wCandle": "Hanging Man",
       "mCandle": "Bullish Candle",
@@ -1929,7 +1929,7 @@
       "open": 454.8,
       "high": 466.25,
       "low": 446.8,
-      "vol": 1528645,
+      "vol": 1528758,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1962,7 +1962,7 @@
       "open": 8090.0,
       "high": 8135.0,
       "low": 7910.0,
-      "vol": 939059,
+      "vol": 939105,
       "dCandle": "Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -1995,7 +1995,7 @@
       "open": 994.0,
       "high": 996.7,
       "low": 965.05,
-      "vol": 1607957,
+      "vol": 1607962,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -2061,7 +2061,7 @@
       "open": 8030.0,
       "high": 8131.0,
       "low": 7883.0,
-      "vol": 463647,
+      "vol": 463691,
       "dCandle": "Hanging Man",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -2094,7 +2094,7 @@
       "open": 9277.0,
       "high": 9318.0,
       "low": 9078.0,
-      "vol": 567309,
+      "vol": 567310,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -2127,7 +2127,7 @@
       "open": 953.1,
       "high": 965.4,
       "low": 945.8,
-      "vol": 7386565,
+      "vol": 7390452,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2160,7 +2160,7 @@
       "open": 130.0,
       "high": 131.11,
       "low": 126.73,
-      "vol": 4292513,
+      "vol": 4296454,
       "dCandle": "Hanging Man",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2193,7 +2193,7 @@
       "open": 786.0,
       "high": 791.0,
       "low": 766.25,
-      "vol": 1776339,
+      "vol": 1777571,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2226,7 +2226,7 @@
       "open": 611.5,
       "high": 619.0,
       "low": 600.15,
-      "vol": 1216206,
+      "vol": 1216894,
       "dCandle": "Hanging Man",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -2259,7 +2259,7 @@
       "open": 111.5,
       "high": 111.86,
       "low": 108.53,
-      "vol": 5285596,
+      "vol": 5290233,
       "dCandle": "Bearish Candle",
       "wCandle": "Inverted Hammer",
       "mCandle": "Hanging Man",
@@ -2292,7 +2292,7 @@
       "open": 1765.8,
       "high": 1780.5,
       "low": 1726.6,
-      "vol": 282802,
+      "vol": 282807,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2358,7 +2358,7 @@
       "open": 4800.0,
       "high": 4810.5,
       "low": 4717.3,
-      "vol": 357696,
+      "vol": 357701,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2391,7 +2391,7 @@
       "open": 1214.0,
       "high": 1227.6,
       "low": 1176.6,
-      "vol": 86759,
+      "vol": 86762,
       "dCandle": "Dragonfly Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2424,7 +2424,7 @@
       "open": 271.95,
       "high": 278.95,
       "low": 267.05,
-      "vol": 1536368,
+      "vol": 1536439,
       "dCandle": "Hanging Man",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2457,7 +2457,7 @@
       "open": 1219.1,
       "high": 1241.6,
       "low": 1215.3,
-      "vol": 7004262,
+      "vol": 7005197,
       "dCandle": "Shooting Star",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -2490,7 +2490,7 @@
       "open": 615.1,
       "high": 617.45,
       "low": 604.0,
-      "vol": 283846,
+      "vol": 283865,
       "dCandle": "Dragonfly Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -2523,7 +2523,7 @@
       "open": 1316.0,
       "high": 1329.9,
       "low": 1308.4,
-      "vol": 12979589,
+      "vol": 13163495,
       "dCandle": "Hanging Man",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2556,7 +2556,7 @@
       "open": 1815.0,
       "high": 1828.7,
       "low": 1792.6,
-      "vol": 2314614,
+      "vol": 2314700,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2589,7 +2589,7 @@
       "open": 302.0,
       "high": 305.05,
       "low": 297.1,
-      "vol": 5617264,
+      "vol": 5618518,
       "dCandle": "Hanging Man",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2622,7 +2622,7 @@
       "open": 1745.0,
       "high": 1765.8,
       "low": 1726.3,
-      "vol": 5564970,
+      "vol": 5609657,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2655,7 +2655,7 @@
       "open": 119.45,
       "high": 120.13,
       "low": 116.51,
-      "vol": 13949398,
+      "vol": 13953325,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2688,7 +2688,7 @@
       "open": 143.2,
       "high": 143.9,
       "low": 139.33,
-      "vol": 2346159,
+      "vol": 2346741,
       "dCandle": "Dragonfly Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2721,7 +2721,7 @@
       "open": 5910.0,
       "high": 5944.5,
       "low": 5798.0,
-      "vol": 22383,
+      "vol": 22403,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -2754,7 +2754,7 @@
       "open": 618.8,
       "high": 622.85,
       "low": 606.15,
-      "vol": 126659,
+      "vol": 126719,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -2787,7 +2787,7 @@
       "open": 107.01,
       "high": 107.38,
       "low": 104.18,
-      "vol": 3177309,
+      "vol": 3180623,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2820,7 +2820,7 @@
       "open": 841.75,
       "high": 849.5,
       "low": 815.7,
-      "vol": 857902,
+      "vol": 857914,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2860,7 +2860,7 @@
       "qCandle": "Bearish Candle",
       "trend": 0,
       "near52w": false,
-      "hi52": 1300.79,
+      "hi52": 1275.14,
       "rsi": 8.1,
       "atr": 23.71,
       "ma20": 917.37,
@@ -2886,7 +2886,7 @@
       "open": 573.75,
       "high": 575.75,
       "low": 552.1,
-      "vol": 310788,
+      "vol": 310825,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -2952,7 +2952,7 @@
       "open": 421.2,
       "high": 426.35,
       "low": 416.3,
-      "vol": 7513315,
+      "vol": 7514836,
       "dCandle": "Doji",
       "wCandle": "Hanging Man",
       "mCandle": "Bullish Candle",
@@ -2985,7 +2985,7 @@
       "open": 4798.0,
       "high": 4812.3,
       "low": 4737.0,
-      "vol": 362663,
+      "vol": 362699,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -3018,7 +3018,7 @@
       "open": 4936.0,
       "high": 5016.2,
       "low": 4878.0,
-      "vol": 592281,
+      "vol": 592514,
       "dCandle": "Doji",
       "wCandle": "Bullish Candle",
       "mCandle": "Dragonfly Doji",
@@ -3051,7 +3051,7 @@
       "open": 365.3,
       "high": 365.3,
       "low": 353.3,
-      "vol": 530451,
+      "vol": 530462,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3084,7 +3084,7 @@
       "open": 3588.0,
       "high": 3602.4,
       "low": 3489.6,
-      "vol": 75747,
+      "vol": 75759,
       "dCandle": "Dragonfly Doji",
       "wCandle": "Bullish Candle",
       "mCandle": "Bullish Candle",
@@ -3117,7 +3117,7 @@
       "open": 953.9,
       "high": 955.95,
       "low": 937.3,
-      "vol": 5653089,
+      "vol": 5698769,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3150,7 +3150,7 @@
       "open": 448.0,
       "high": 450.85,
       "low": 436.35,
-      "vol": 877673,
+      "vol": 877730,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Marubozu",
@@ -3183,7 +3183,7 @@
       "open": 178.25,
       "high": 180.93,
       "low": 172.86,
-      "vol": 11128990,
+      "vol": 11142144,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -3223,7 +3223,7 @@
       "qCandle": "Bearish Candle",
       "trend": 0,
       "near52w": false,
-      "hi52": 163308.49,
+      "hi52": 163308.5,
       "rsi": 29.7,
       "atr": 1713.57,
       "ma20": 125951.5,
@@ -3249,7 +3249,7 @@
       "open": 80.95,
       "high": 81.38,
       "low": 79.53,
-      "vol": 24433155,
+      "vol": 24434109,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3282,7 +3282,7 @@
       "open": 1671.9,
       "high": 1690.0,
       "low": 1629.0,
-      "vol": 1936787,
+      "vol": 1936812,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -3315,7 +3315,7 @@
       "open": 8197.5,
       "high": 8262.0,
       "low": 8035.0,
-      "vol": 94931,
+      "vol": 94936,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3348,7 +3348,7 @@
       "open": 385.2,
       "high": 386.15,
       "low": 378.65,
-      "vol": 10246344,
+      "vol": 10250149,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3381,7 +3381,7 @@
       "open": 5235.0,
       "high": 5290.0,
       "low": 5051.0,
-      "vol": 862514,
+      "vol": 862662,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3414,7 +3414,7 @@
       "open": 1151.0,
       "high": 1158.0,
       "low": 1123.7,
-      "vol": 2547339,
+      "vol": 2547369,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -3447,7 +3447,7 @@
       "open": 78.3,
       "high": 78.86,
       "low": 76.07,
-      "vol": 6193553,
+      "vol": 6195124,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3480,7 +3480,7 @@
       "open": 502.9,
       "high": 509.4,
       "low": 484.5,
-      "vol": 1989056,
+      "vol": 1989750,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -3513,7 +3513,7 @@
       "open": 4666.0,
       "high": 4699.7,
       "low": 4559.3,
-      "vol": 739766,
+      "vol": 739864,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3546,7 +3546,7 @@
       "open": 2729.9,
       "high": 2765.6,
       "low": 2676.9,
-      "vol": 553524,
+      "vol": 553592,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -3579,7 +3579,7 @@
       "open": 72.75,
       "high": 72.9,
       "low": 70.25,
-      "vol": 10899419,
+      "vol": 10903143,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3612,7 +3612,7 @@
       "open": 2386.8,
       "high": 2405.2,
       "low": 2307.3,
-      "vol": 471014,
+      "vol": 471021,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -3645,7 +3645,7 @@
       "open": 39.49,
       "high": 39.63,
       "low": 38.4,
-      "vol": 53206433,
+      "vol": 53247107,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -3678,7 +3678,7 @@
       "open": 3089.9,
       "high": 3139.0,
       "low": 3000.0,
-      "vol": 6269900,
+      "vol": 6273089,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3711,7 +3711,7 @@
       "open": 23.22,
       "high": 23.35,
       "low": 22.81,
-      "vol": 3787379,
+      "vol": 3788182,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3744,7 +3744,7 @@
       "open": 1960.0,
       "high": 1995.5,
       "low": 1930.0,
-      "vol": 198720,
+      "vol": 198724,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Shooting Star",
@@ -3777,7 +3777,7 @@
       "open": 30.46,
       "high": 30.46,
       "low": 29.76,
-      "vol": 4705604,
+      "vol": 4707687,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Shooting Star",
@@ -3810,7 +3810,7 @@
       "open": 224.75,
       "high": 224.99,
       "low": 220.6,
-      "vol": 13093822,
+      "vol": 13099985,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -3843,7 +3843,7 @@
       "open": 351.15,
       "high": 352.8,
       "low": 344.0,
-      "vol": 5753665,
+      "vol": 5754484,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -3909,7 +3909,7 @@
       "open": 4574.9,
       "high": 4621.8,
       "low": 4491.0,
-      "vol": 694025,
+      "vol": 694098,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -3942,7 +3942,7 @@
       "open": 428.0,
       "high": 430.8,
       "low": 415.35,
-      "vol": 8516083,
+      "vol": 8516414,
       "dCandle": "Bearish Candle",
       "wCandle": "Hanging Man",
       "mCandle": "Bullish Candle",
@@ -3975,7 +3975,7 @@
       "open": 323.95,
       "high": 325.4,
       "low": 315.45,
-      "vol": 3088325,
+      "vol": 3088333,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -4008,7 +4008,7 @@
       "open": 1070.0,
       "high": 1078.6,
       "low": 1040.6,
-      "vol": 638932,
+      "vol": 638996,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -4041,7 +4041,7 @@
       "open": 2101.0,
       "high": 2108.0,
       "low": 2048.9,
-      "vol": 326454,
+      "vol": 326468,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4074,7 +4074,7 @@
       "open": 805.9,
       "high": 810.5,
       "low": 786.85,
-      "vol": 671322,
+      "vol": 671392,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4107,7 +4107,7 @@
       "open": 2615.0,
       "high": 2624.0,
       "low": 2545.8,
-      "vol": 896656,
+      "vol": 896919,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -4140,7 +4140,7 @@
       "open": 1763.3,
       "high": 1775.4,
       "low": 1716.1,
-      "vol": 412816,
+      "vol": 412868,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -4173,7 +4173,7 @@
       "open": 1215.1,
       "high": 1221.2,
       "low": 1180.3,
-      "vol": 2219555,
+      "vol": 2219568,
       "dCandle": "Bearish Candle",
       "wCandle": "Hanging Man",
       "mCandle": "Bearish Candle",
@@ -4206,7 +4206,7 @@
       "open": 896.1,
       "high": 900.75,
       "low": 880.3,
-      "vol": 1761199,
+      "vol": 1761249,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4239,7 +4239,7 @@
       "open": 1180.1,
       "high": 1183.9,
       "low": 1160.8,
-      "vol": 16667234,
+      "vol": 16771221,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4272,7 +4272,7 @@
       "open": 1253.0,
       "high": 1256.4,
       "low": 1214.8,
-      "vol": 3157989,
+      "vol": 3158301,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4305,7 +4305,7 @@
       "open": 1579.0,
       "high": 1594.7,
       "low": 1562.6,
-      "vol": 1189581,
+      "vol": 1189772,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -4338,7 +4338,7 @@
       "open": 1264.0,
       "high": 1274.6,
       "low": 1223.9,
-      "vol": 1323510,
+      "vol": 1324382,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4371,7 +4371,7 @@
       "open": 2700.0,
       "high": 2701.0,
       "low": 2550.1,
-      "vol": 338519,
+      "vol": 338525,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4404,7 +4404,7 @@
       "open": 3726.0,
       "high": 3737.3,
       "low": 3655.9,
-      "vol": 2218837,
+      "vol": 2220932,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4437,7 +4437,7 @@
       "open": 335.0,
       "high": 338.85,
       "low": 329.5,
-      "vol": 4668061,
+      "vol": 4672624,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4470,7 +4470,7 @@
       "open": 30.66,
       "high": 30.83,
       "low": 30.07,
-      "vol": 2773743,
+      "vol": 2774243,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4503,7 +4503,7 @@
       "open": 310.0,
       "high": 313.35,
       "low": 300.0,
-      "vol": 559320,
+      "vol": 560349,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -4536,7 +4536,7 @@
       "open": 346.05,
       "high": 346.05,
       "low": 334.2,
-      "vol": 487699,
+      "vol": 487795,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4569,7 +4569,7 @@
       "open": 1368.1,
       "high": 1368.5,
       "low": 1316.1,
-      "vol": 299226,
+      "vol": 299231,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4602,7 +4602,7 @@
       "open": 564.4,
       "high": 566.35,
       "low": 547.2,
-      "vol": 3163613,
+      "vol": 3165448,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4635,7 +4635,7 @@
       "open": 445.0,
       "high": 446.2,
       "low": 431.7,
-      "vol": 177570,
+      "vol": 177583,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -4668,7 +4668,7 @@
       "open": 736.1,
       "high": 745.4,
       "low": 728.35,
-      "vol": 764828,
+      "vol": 764831,
       "dCandle": "Hanging Man",
       "wCandle": "Hanging Man",
       "mCandle": "Shooting Star",
@@ -4701,7 +4701,7 @@
       "open": 10575.0,
       "high": 10661.0,
       "low": 10263.0,
-      "vol": 194016,
+      "vol": 194062,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -4734,7 +4734,7 @@
       "open": 22250.0,
       "high": 22275.0,
       "low": 21355.0,
-      "vol": 59305,
+      "vol": 59306,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4767,7 +4767,7 @@
       "open": 169.69,
       "high": 172.19,
       "low": 164.81,
-      "vol": 7872244,
+      "vol": 7875995,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4800,7 +4800,7 @@
       "open": 1103.0,
       "high": 1115.7,
       "low": 1071.2,
-      "vol": 928602,
+      "vol": 928850,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4833,7 +4833,7 @@
       "open": 1623.3,
       "high": 1632.9,
       "low": 1566.6,
-      "vol": 495987,
+      "vol": 496337,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4899,7 +4899,7 @@
       "open": 3437.0,
       "high": 3440.0,
       "low": 3286.9,
-      "vol": 167966,
+      "vol": 167968,
       "dCandle": "Bearish Candle",
       "wCandle": "Hanging Man",
       "mCandle": "Bearish Candle",
@@ -4932,7 +4932,7 @@
       "open": 4090.0,
       "high": 4100.0,
       "low": 3930.1,
-      "vol": 1234361,
+      "vol": 1234692,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4965,7 +4965,7 @@
       "open": 1315.0,
       "high": 1315.9,
       "low": 1265.6,
-      "vol": 727825,
+      "vol": 727942,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -4998,7 +4998,7 @@
       "open": 1233.0,
       "high": 1233.9,
       "low": 1194.9,
-      "vol": 2607686,
+      "vol": 2607818,
       "dCandle": "Bearish Candle",
       "wCandle": "Shooting Star",
       "mCandle": "Bullish Candle",
@@ -5031,7 +5031,7 @@
       "open": 469.85,
       "high": 471.2,
       "low": 450.0,
-      "vol": 6826691,
+      "vol": 6827265,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5064,7 +5064,7 @@
       "open": 475.7,
       "high": 480.0,
       "low": 459.75,
-      "vol": 486109,
+      "vol": 486186,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -5097,7 +5097,7 @@
       "open": 10810.0,
       "high": 10879.0,
       "low": 10612.0,
-      "vol": 570605,
+      "vol": 570684,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5130,7 +5130,7 @@
       "open": 258.2,
       "high": 259.0,
       "low": 252.35,
-      "vol": 10974555,
+      "vol": 10976701,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -5163,7 +5163,7 @@
       "open": 1870.1,
       "high": 1873.6,
       "low": 1826.9,
-      "vol": 1331073,
+      "vol": 1331680,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Marubozu",
@@ -5196,7 +5196,7 @@
       "open": 664.5,
       "high": 671.1,
       "low": 650.55,
-      "vol": 6263868,
+      "vol": 6264045,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Doji",
@@ -5229,7 +5229,7 @@
       "open": 1009.0,
       "high": 1009.0,
       "low": 974.2,
-      "vol": 2487888,
+      "vol": 2487890,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5262,7 +5262,7 @@
       "open": 2110.0,
       "high": 2115.6,
       "low": 2031.2,
-      "vol": 648110,
+      "vol": 648362,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5295,7 +5295,7 @@
       "open": 201.5,
       "high": 202.45,
       "low": 194.05,
-      "vol": 6244520,
+      "vol": 6247340,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5328,7 +5328,7 @@
       "open": 320.8,
       "high": 320.95,
       "low": 313.05,
-      "vol": 10089386,
+      "vol": 10094465,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -5361,7 +5361,7 @@
       "open": 408.0,
       "high": 408.65,
       "low": 397.0,
-      "vol": 1371356,
+      "vol": 1371538,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Marubozu",
@@ -5394,7 +5394,7 @@
       "open": 59.25,
       "high": 59.27,
       "low": 56.73,
-      "vol": 4374277,
+      "vol": 4376261,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5427,7 +5427,7 @@
       "open": 12.95,
       "high": 13.14,
       "low": 12.5,
-      "vol": 612301899,
+      "vol": 612490273,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -5460,7 +5460,7 @@
       "open": 154.45,
       "high": 154.86,
       "low": 148.5,
-      "vol": 20571128,
+      "vol": 20574319,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5493,7 +5493,7 @@
       "open": 1529.8,
       "high": 1529.9,
       "low": 1473.1,
-      "vol": 156758,
+      "vol": 157119,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Marubozu",
@@ -5526,7 +5526,7 @@
       "open": 409.95,
       "high": 411.25,
       "low": 396.5,
-      "vol": 447020,
+      "vol": 447087,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5559,7 +5559,7 @@
       "open": 611.1,
       "high": 615.0,
       "low": 590.0,
-      "vol": 66103,
+      "vol": 66105,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5592,7 +5592,7 @@
       "open": 1619.7,
       "high": 1619.7,
       "low": 1563.2,
-      "vol": 1699903,
+      "vol": 1699959,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -5625,7 +5625,7 @@
       "open": 76.45,
       "high": 76.97,
       "low": 73.71,
-      "vol": 17075337,
+      "vol": 17077400,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -5658,7 +5658,7 @@
       "open": 601.0,
       "high": 601.0,
       "low": 576.0,
-      "vol": 628985,
+      "vol": 629192,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -5691,7 +5691,7 @@
       "open": 150.25,
       "high": 150.25,
       "low": 145.2,
-      "vol": 1069163,
+      "vol": 1070806,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5724,7 +5724,7 @@
       "open": 1116.0,
       "high": 1129.0,
       "low": 1083.3,
-      "vol": 2249185,
+      "vol": 2249380,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5757,7 +5757,7 @@
       "open": 262.7,
       "high": 262.7,
       "low": 254.65,
-      "vol": 16440881,
+      "vol": 16447266,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -5790,7 +5790,7 @@
       "open": 1910.0,
       "high": 1915.9,
       "low": 1845.2,
-      "vol": 1148199,
+      "vol": 1151437,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -5823,7 +5823,7 @@
       "open": 134.0,
       "high": 134.1,
       "low": 131.2,
-      "vol": 12238038,
+      "vol": 12239747,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -5856,7 +5856,7 @@
       "open": 78.7,
       "high": 78.92,
       "low": 76.51,
-      "vol": 12758090,
+      "vol": 12764829,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5889,7 +5889,7 @@
       "open": 3300.0,
       "high": 3331.3,
       "low": 3193.6,
-      "vol": 2002301,
+      "vol": 2002629,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Hanging Man",
@@ -5955,7 +5955,7 @@
       "open": 1130.5,
       "high": 1132.7,
       "low": 1079.0,
-      "vol": 862942,
+      "vol": 862948,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -5988,7 +5988,7 @@
       "open": 757.9,
       "high": 757.9,
       "low": 727.95,
-      "vol": 95866,
+      "vol": 95867,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -6021,7 +6021,7 @@
       "open": 167.94,
       "high": 167.94,
       "low": 159.51,
-      "vol": 3134908,
+      "vol": 3136559,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -6054,7 +6054,7 @@
       "open": 2926.0,
       "high": 2927.4,
       "low": 2812.0,
-      "vol": 5450936,
+      "vol": 5453321,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -6087,7 +6087,7 @@
       "open": 13151.0,
       "high": 13290.0,
       "low": 12651.0,
-      "vol": 258786,
+      "vol": 258830,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -6120,7 +6120,7 @@
       "open": 113.06,
       "high": 113.38,
       "low": 109.37,
-      "vol": 11358210,
+      "vol": 11365686,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -6153,7 +6153,7 @@
       "open": 371.5,
       "high": 371.6,
       "low": 356.3,
-      "vol": 3892030,
+      "vol": 3893265,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6186,7 +6186,7 @@
       "open": 263.2,
       "high": 263.2,
       "low": 252.65,
-      "vol": 851674,
+      "vol": 851720,
       "dCandle": "Bearish Candle",
       "wCandle": "Hanging Man",
       "mCandle": "Bearish Candle",
@@ -6219,7 +6219,7 @@
       "open": 2302.4,
       "high": 2302.4,
       "low": 2220.0,
-      "vol": 125253,
+      "vol": 125263,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -6252,7 +6252,7 @@
       "open": 2892.0,
       "high": 2903.6,
       "low": 2739.8,
-      "vol": 312620,
+      "vol": 312645,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -6285,7 +6285,7 @@
       "open": 7120.0,
       "high": 7146.0,
       "low": 6840.0,
-      "vol": 817438,
+      "vol": 817452,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -6318,7 +6318,7 @@
       "open": 2170.0,
       "high": 2173.0,
       "low": 2077.0,
-      "vol": 571612,
+      "vol": 571755,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Marubozu",
@@ -6351,7 +6351,7 @@
       "open": 261.2,
       "high": 261.25,
       "low": 251.85,
-      "vol": 1596782,
+      "vol": 1597038,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6384,7 +6384,7 @@
       "open": 3038.0,
       "high": 3045.0,
       "low": 2944.4,
-      "vol": 1385134,
+      "vol": 1385746,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -6417,7 +6417,7 @@
       "open": 1786.0,
       "high": 1786.0,
       "low": 1716.0,
-      "vol": 2157254,
+      "vol": 2157928,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -6450,7 +6450,7 @@
       "open": 2187.2,
       "high": 2196.8,
       "low": 2059.5,
-      "vol": 1615811,
+      "vol": 1615913,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6483,7 +6483,7 @@
       "open": 184.37,
       "high": 186.55,
       "low": 175.75,
-      "vol": 47647155,
+      "vol": 47659952,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -6516,7 +6516,7 @@
       "open": 46810.0,
       "high": 46995.0,
       "low": 44410.0,
-      "vol": 48571,
+      "vol": 48572,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6549,7 +6549,7 @@
       "open": 298.05,
       "high": 298.2,
       "low": 286.2,
-      "vol": 9064727,
+      "vol": 9069239,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -6582,7 +6582,7 @@
       "open": 161.35,
       "high": 162.27,
       "low": 153.81,
-      "vol": 23035578,
+      "vol": 23039471,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6615,7 +6615,7 @@
       "open": 180.5,
       "high": 181.67,
       "low": 170.67,
-      "vol": 26194118,
+      "vol": 26206885,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6648,7 +6648,7 @@
       "open": 46.2,
       "high": 46.5,
       "low": 44.04,
-      "vol": 5501661,
+      "vol": 5512411,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6681,7 +6681,7 @@
       "open": 530.4,
       "high": 531.7,
       "low": 499.25,
-      "vol": 5985781,
+      "vol": 5986497,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -6714,7 +6714,7 @@
       "open": 535.7,
       "high": 537.65,
       "low": 511.2,
-      "vol": 2465186,
+      "vol": 2466891,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -6747,7 +6747,7 @@
       "open": 553.15,
       "high": 555.55,
       "low": 522.5,
-      "vol": 7829469,
+      "vol": 7831270,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -6780,7 +6780,7 @@
       "open": 11900.0,
       "high": 11907.0,
       "low": 11305.0,
-      "vol": 885527,
+      "vol": 885820,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -6813,7 +6813,7 @@
       "open": 10701.0,
       "high": 10714.0,
       "low": 9900.0,
-      "vol": 1491210,
+      "vol": 1491300,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Marubozu",
@@ -6846,7 +6846,7 @@
       "open": 1050.0,
       "high": 1058.4,
       "low": 963.9,
-      "vol": 14047939,
+      "vol": 14061779,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -7037,607 +7037,607 @@
     "I.T": [
       {
         "date": "2026-08-06",
-        "x": 117.621,
-        "y": 98.998
+        "x": 113.202,
+        "y": 99.036
       },
       {
         "date": "2026-08-07",
-        "x": 119.607,
-        "y": 109.54
+        "x": 115.114,
+        "y": 109.182
       },
       {
         "date": "2026-08-10",
-        "x": 119.861,
-        "y": 99.047
+        "x": 115.358,
+        "y": 99.083
       },
       {
         "date": "2026-08-11",
-        "x": 121.139,
-        "y": 104.214
+        "x": 116.589,
+        "y": 104.056
       },
       {
         "date": "2026-08-12",
-        "x": 119.446,
-        "y": 99.182
+        "x": 114.959,
+        "y": 99.213
       },
       {
         "date": "2026-08-13",
-        "x": 120.106,
-        "y": 103.982
+        "x": 115.594,
+        "y": 103.833
       },
       {
         "date": "2026-08-14",
-        "x": 119.886,
-        "y": 97.821
+        "x": 115.382,
+        "y": 97.903
       },
       {
         "date": "2026-08-17",
-        "x": 118.163,
-        "y": 90.523
+        "x": 113.724,
+        "y": 90.879
       },
       {
         "date": "2026-08-18",
-        "x": 116.52,
-        "y": 81.376
+        "x": 112.143,
+        "y": 82.076
       },
       {
         "date": "2026-08-19",
-        "x": 117.74,
-        "y": 89.56
+        "x": 113.318,
+        "y": 89.952
       },
       {
         "date": "2026-08-20",
-        "x": 117.917,
-        "y": 90.994
+        "x": 113.488,
+        "y": 91.333
       },
       {
         "date": "2026-08-21",
-        "x": 117.278,
-        "y": 90.487
+        "x": 112.873,
+        "y": 90.845
       },
       {
         "date": "2026-08-24",
-        "x": 117.686,
-        "y": 97.566
+        "x": 113.266,
+        "y": 97.658
       },
       {
         "date": "2026-08-25",
-        "x": 117.797,
-        "y": 106.412
+        "x": 113.372,
+        "y": 106.171
       },
       {
         "date": "2026-08-26",
-        "x": 116.671,
-        "y": 98.682
+        "x": 112.289,
+        "y": 98.731
       },
       {
         "date": "2026-08-27",
-        "x": 116.86,
-        "y": 94.758
+        "x": 112.47,
+        "y": 94.955
       },
       {
         "date": "2026-08-28",
-        "x": 120.536,
-        "y": 108.663
+        "x": 116.009,
+        "y": 108.338
       },
       {
         "date": "2026-08-31",
-        "x": 120.664,
-        "y": 106.9
+        "x": 116.131,
+        "y": 106.641
       },
       {
         "date": "2026-09-01",
-        "x": 121.97,
-        "y": 108.421
+        "x": 117.388,
+        "y": 108.105
       },
       {
         "date": "2026-09-02",
-        "x": 121.156,
-        "y": 109.162
+        "x": 116.605,
+        "y": 108.818
       },
       {
         "date": "2026-09-03",
-        "x": 120.334,
-        "y": 107.231
+        "x": 115.814,
+        "y": 106.959
       },
       {
         "date": "2026-09-04",
-        "x": 119.652,
-        "y": 93.141
+        "x": 115.157,
+        "y": 93.398
       },
       {
         "date": "2026-09-07",
-        "x": 117.506,
-        "y": 85.941
+        "x": 113.092,
+        "y": 86.469
       },
       {
         "date": "2026-09-08",
-        "x": 117.782,
-        "y": 80.925
+        "x": 113.358,
+        "y": 81.642
       },
       {
         "date": "2026-09-09",
-        "x": 114.951,
-        "y": 73.893
+        "x": 110.633,
+        "y": 74.874
       },
       {
         "date": "2026-09-10",
-        "x": 114.633,
-        "y": 76.813
+        "x": 110.327,
+        "y": 77.684
       },
       {
         "date": "2026-09-11",
-        "x": 115.145,
-        "y": 78.816
+        "x": 110.82,
+        "y": 79.611
       },
       {
         "date": "2026-09-15",
-        "x": 119.091,
-        "y": 94.682
+        "x": 114.618,
+        "y": 94.882
       },
       {
         "date": "2026-09-16",
-        "x": 116.707,
-        "y": 90.421
+        "x": 112.323,
+        "y": 90.78
       },
       {
         "date": "2026-09-17",
-        "x": 116.713,
-        "y": 102.901
+        "x": 112.329,
+        "y": 102.792
       },
       {
         "date": "2026-09-18",
-        "x": 115.133,
-        "y": 99.565
+        "x": 110.808,
+        "y": 99.581
       },
       {
         "date": "2026-09-21",
-        "x": 114.705,
-        "y": 98.919
+        "x": 110.396,
+        "y": 98.959
       },
       {
         "date": "2026-09-22",
-        "x": 114.131,
-        "y": 88.342
+        "x": 109.844,
+        "y": 88.78
       },
       {
         "date": "2026-09-23",
-        "x": 112.572,
-        "y": 91.018
+        "x": 108.344,
+        "y": 91.355
       },
       {
         "date": "2026-09-24",
-        "x": 113.939,
-        "y": 88.528
+        "x": 109.659,
+        "y": 88.959
       },
       {
         "date": "2026-09-25",
-        "x": 113.365,
-        "y": 91.623
+        "x": 109.107,
+        "y": 91.938
       },
       {
         "date": "2026-09-28",
-        "x": 114.854,
-        "y": 90.868
+        "x": 110.539,
+        "y": 91.211
       },
       {
         "date": "2026-09-29",
-        "x": 113.47,
-        "y": 88.779
+        "x": 109.207,
+        "y": 89.2
       },
       {
         "date": "2026-09-30",
-        "x": 114.093,
-        "y": 92.226
+        "x": 109.807,
+        "y": 92.518
       },
       {
         "date": "2026-10-01",
-        "x": 117.596,
-        "y": 101.195
+        "x": 113.178,
+        "y": 101.15
       }
     ],
     "Financials": [
       {
         "date": "2026-08-06",
-        "x": 97.494,
-        "y": 104.615
+        "x": 98.186,
+        "y": 104.648
       },
       {
         "date": "2026-08-07",
-        "x": 97.219,
-        "y": 102.432
+        "x": 97.909,
+        "y": 102.45
       },
       {
         "date": "2026-08-10",
-        "x": 97.067,
-        "y": 97.168
+        "x": 97.756,
+        "y": 97.148
       },
       {
         "date": "2026-08-11",
-        "x": 97.104,
-        "y": 97.662
+        "x": 97.794,
+        "y": 97.646
       },
       {
         "date": "2026-08-12",
-        "x": 97.991,
-        "y": 100.741
+        "x": 98.686,
+        "y": 100.746
       },
       {
         "date": "2026-08-13",
-        "x": 97.727,
-        "y": 97.821
+        "x": 98.421,
+        "y": 97.805
       },
       {
         "date": "2026-08-14",
-        "x": 97.602,
-        "y": 98.699
+        "x": 98.295,
+        "y": 98.69
       },
       {
         "date": "2026-08-17",
-        "x": 97.928,
-        "y": 99.034
+        "x": 98.623,
+        "y": 99.027
       },
       {
         "date": "2026-08-18",
-        "x": 98.063,
-        "y": 99.055
+        "x": 98.759,
+        "y": 99.049
       },
       {
         "date": "2026-08-19",
-        "x": 98.336,
-        "y": 96.67
+        "x": 99.034,
+        "y": 96.646
       },
       {
         "date": "2026-08-20",
-        "x": 98.15,
-        "y": 99.286
+        "x": 98.847,
+        "y": 99.281
       },
       {
         "date": "2026-08-21",
-        "x": 98.523,
-        "y": 101.386
+        "x": 99.222,
+        "y": 101.396
       },
       {
         "date": "2026-08-24",
-        "x": 98.254,
-        "y": 100.144
+        "x": 98.951,
+        "y": 100.145
       },
       {
         "date": "2026-08-25",
-        "x": 97.767,
-        "y": 101.284
+        "x": 98.461,
+        "y": 101.293
       },
       {
         "date": "2026-08-26",
-        "x": 98.74,
-        "y": 102.789
+        "x": 99.441,
+        "y": 102.809
       },
       {
         "date": "2026-08-27",
-        "x": 98.749,
-        "y": 100.072
+        "x": 99.45,
+        "y": 100.073
       },
       {
         "date": "2026-08-28",
-        "x": 98.379,
-        "y": 98.636
+        "x": 99.078,
+        "y": 98.627
       },
       {
         "date": "2026-08-31",
-        "x": 99.676,
-        "y": 102.572
+        "x": 100.384,
+        "y": 102.59
       },
       {
         "date": "2026-09-01",
-        "x": 98.72,
-        "y": 99.46
+        "x": 99.421,
+        "y": 99.457
       },
       {
         "date": "2026-09-02",
-        "x": 98.893,
-        "y": 96.825
+        "x": 99.595,
+        "y": 96.803
       },
       {
         "date": "2026-09-03",
-        "x": 99.424,
-        "y": 99.328
+        "x": 100.13,
+        "y": 99.323
       },
       {
         "date": "2026-09-04",
-        "x": 99.304,
-        "y": 99.342
+        "x": 100.009,
+        "y": 99.338
       },
       {
         "date": "2026-09-07",
-        "x": 99.31,
-        "y": 95.112
+        "x": 100.015,
+        "y": 95.077
       },
       {
         "date": "2026-09-08",
-        "x": 99.371,
-        "y": 96.681
+        "x": 100.077,
+        "y": 96.658
       },
       {
         "date": "2026-09-09",
-        "x": 99.384,
-        "y": 95.358
+        "x": 100.089,
+        "y": 95.325
       },
       {
         "date": "2026-09-10",
-        "x": 99.499,
-        "y": 95.197
+        "x": 100.205,
+        "y": 95.163
       },
       {
         "date": "2026-09-11",
-        "x": 100.076,
-        "y": 95.953
+        "x": 100.786,
+        "y": 95.924
       },
       {
         "date": "2026-09-15",
-        "x": 99.833,
-        "y": 93.056
+        "x": 100.542,
+        "y": 93.007
       },
       {
         "date": "2026-09-16",
-        "x": 100.294,
-        "y": 97.407
+        "x": 101.006,
+        "y": 97.389
       },
       {
         "date": "2026-09-17",
-        "x": 99.645,
-        "y": 98.721
+        "x": 100.352,
+        "y": 98.712
       },
       {
         "date": "2026-09-18",
-        "x": 99.858,
-        "y": 99.398
+        "x": 100.567,
+        "y": 99.394
       },
       {
         "date": "2026-09-21",
-        "x": 99.766,
-        "y": 99.28
+        "x": 100.474,
+        "y": 99.275
       },
       {
         "date": "2026-09-22",
-        "x": 99.679,
-        "y": 102.238
+        "x": 100.386,
+        "y": 102.254
       },
       {
         "date": "2026-09-23",
-        "x": 99.766,
-        "y": 101.357
+        "x": 100.474,
+        "y": 101.367
       },
       {
         "date": "2026-09-24",
-        "x": 99.434,
-        "y": 96.679
+        "x": 100.14,
+        "y": 96.655
       },
       {
         "date": "2026-09-25",
-        "x": 99.355,
-        "y": 95.826
+        "x": 100.061,
+        "y": 95.797
       },
       {
         "date": "2026-09-28",
-        "x": 98.913,
-        "y": 89.11
+        "x": 99.615,
+        "y": 89.033
       },
       {
         "date": "2026-09-29",
-        "x": 98.806,
-        "y": 89.317
+        "x": 99.508,
+        "y": 89.241
       },
       {
         "date": "2026-09-30",
-        "x": 99.907,
-        "y": 89.49
+        "x": 100.616,
+        "y": 89.415
       },
       {
         "date": "2026-10-01",
-        "x": 100.455,
-        "y": 94.533
+        "x": 101.168,
+        "y": 94.494
       }
     ],
     "Healthcare": [
       {
         "date": "2026-08-06",
-        "x": 102.79,
-        "y": 102.539
+        "x": 103.001,
+        "y": 102.545
       },
       {
         "date": "2026-08-07",
-        "x": 102.974,
-        "y": 100.081
+        "x": 103.186,
+        "y": 100.082
       },
       {
         "date": "2026-08-10",
-        "x": 102.678,
-        "y": 97.868
+        "x": 102.889,
+        "y": 97.864
       },
       {
         "date": "2026-08-11",
-        "x": 104.203,
-        "y": 101.787
+        "x": 104.417,
+        "y": 101.791
       },
       {
         "date": "2026-08-12",
-        "x": 104.403,
-        "y": 102.328
+        "x": 104.617,
+        "y": 102.333
       },
       {
         "date": "2026-08-13",
-        "x": 104.279,
-        "y": 101.43
+        "x": 104.493,
+        "y": 101.433
       },
       {
         "date": "2026-08-14",
-        "x": 103.463,
-        "y": 98.87
+        "x": 103.675,
+        "y": 98.868
       },
       {
         "date": "2026-08-17",
-        "x": 103.388,
-        "y": 98.375
+        "x": 103.6,
+        "y": 98.372
       },
       {
         "date": "2026-08-18",
-        "x": 104.037,
-        "y": 95.4
+        "x": 104.25,
+        "y": 95.39
       },
       {
         "date": "2026-08-19",
-        "x": 104.177,
-        "y": 94.671
+        "x": 104.391,
+        "y": 94.66
       },
       {
         "date": "2026-08-20",
-        "x": 103.919,
-        "y": 96.804
+        "x": 104.132,
+        "y": 96.798
       },
       {
         "date": "2026-08-21",
-        "x": 103.612,
-        "y": 98.988
+        "x": 103.824,
+        "y": 98.986
       },
       {
         "date": "2026-08-24",
-        "x": 103.672,
+        "x": 103.885,
         "y": 99.973
       },
       {
         "date": "2026-08-25",
-        "x": 104.06,
-        "y": 102.375
+        "x": 104.274,
+        "y": 102.38
       },
       {
         "date": "2026-08-26",
-        "x": 104.851,
-        "y": 103.692
+        "x": 105.066,
+        "y": 103.699
       },
       {
         "date": "2026-08-27",
-        "x": 106.24,
-        "y": 105.137
+        "x": 106.458,
+        "y": 105.148
       },
       {
         "date": "2026-08-28",
-        "x": 106.431,
-        "y": 107.477
+        "x": 106.65,
+        "y": 107.493
       },
       {
         "date": "2026-08-31",
-        "x": 107.623,
-        "y": 110.061
+        "x": 107.844,
+        "y": 110.081
       },
       {
         "date": "2026-09-01",
-        "x": 106.172,
-        "y": 102.718
+        "x": 106.39,
+        "y": 102.724
       },
       {
         "date": "2026-09-02",
-        "x": 106.752,
-        "y": 101.846
+        "x": 106.971,
+        "y": 101.85
       },
       {
         "date": "2026-09-03",
-        "x": 106.448,
-        "y": 97.723
+        "x": 106.667,
+        "y": 97.718
       },
       {
         "date": "2026-09-04",
-        "x": 105.62,
-        "y": 93.852
+        "x": 105.837,
+        "y": 93.839
       },
       {
         "date": "2026-09-07",
-        "x": 106.938,
-        "y": 93.855
+        "x": 107.157,
+        "y": 93.842
       },
       {
         "date": "2026-09-08",
-        "x": 108.418,
-        "y": 101.067
+        "x": 108.64,
+        "y": 101.069
       },
       {
         "date": "2026-09-09",
-        "x": 108.591,
-        "y": 98.915
+        "x": 108.814,
+        "y": 98.913
       },
       {
         "date": "2026-09-10",
-        "x": 107.825,
-        "y": 98.748
+        "x": 108.046,
+        "y": 98.745
       },
       {
         "date": "2026-09-11",
-        "x": 108.096,
-        "y": 100.664
+        "x": 108.318,
+        "y": 100.665
       },
       {
         "date": "2026-09-15",
-        "x": 107.985,
-        "y": 93.975
+        "x": 108.206,
+        "y": 93.962
       },
       {
         "date": "2026-09-16",
-        "x": 107.351,
-        "y": 90.952
+        "x": 107.571,
+        "y": 90.933
       },
       {
         "date": "2026-09-17",
-        "x": 108.88,
-        "y": 98.617
+        "x": 109.104,
+        "y": 98.614
       },
       {
         "date": "2026-09-18",
-        "x": 109.061,
-        "y": 101.889
+        "x": 109.285,
+        "y": 101.893
       },
       {
         "date": "2026-09-21",
-        "x": 110.011,
-        "y": 105.97
+        "x": 110.237,
+        "y": 105.982
       },
       {
         "date": "2026-09-22",
-        "x": 109.958,
-        "y": 108.841
+        "x": 110.184,
+        "y": 108.859
       },
       {
         "date": "2026-09-23",
-        "x": 110.391,
-        "y": 112.269
+        "x": 110.618,
+        "y": 112.294
       },
       {
         "date": "2026-09-24",
-        "x": 111.718,
-        "y": 105.573
+        "x": 111.947,
+        "y": 105.585
       },
       {
         "date": "2026-09-25",
-        "x": 111.238,
-        "y": 103.62
+        "x": 111.467,
+        "y": 103.627
       },
       {
         "date": "2026-09-28",
-        "x": 111.987,
-        "y": 96.742
+        "x": 112.217,
+        "y": 96.736
       },
       {
         "date": "2026-09-29",
-        "x": 113.025,
+        "x": 113.257,
         "y": 100.303
       },
       {
         "date": "2026-09-30",
-        "x": 111.415,
-        "y": 90.972
+        "x": 111.643,
+        "y": 90.953
       },
       {
         "date": "2026-10-01",
-        "x": 111.863,
-        "y": 90.853
+        "x": 112.093,
+        "y": 90.834
       }
     ],
     "Auto": [],
@@ -7647,1011 +7647,1011 @@
     "Industrials": [
       {
         "date": "2026-08-06",
-        "x": 96.709,
-        "y": 108.864
+        "x": 98.19,
+        "y": 109.0
       },
       {
         "date": "2026-08-07",
-        "x": 96.828,
-        "y": 108.386
+        "x": 98.31,
+        "y": 108.515
       },
       {
         "date": "2026-08-10",
-        "x": 97.348,
-        "y": 103.937
+        "x": 98.839,
+        "y": 103.997
       },
       {
         "date": "2026-08-11",
-        "x": 96.773,
-        "y": 103.408
+        "x": 98.255,
+        "y": 103.461
       },
       {
         "date": "2026-08-12",
-        "x": 96.497,
-        "y": 97.336
+        "x": 97.975,
+        "y": 97.295
       },
       {
         "date": "2026-08-13",
-        "x": 97.875,
-        "y": 100.642
+        "x": 99.373,
+        "y": 100.652
       },
       {
         "date": "2026-08-14",
-        "x": 97.665,
-        "y": 100.072
+        "x": 99.16,
+        "y": 100.073
       },
       {
         "date": "2026-08-17",
-        "x": 98.697,
-        "y": 100.485
+        "x": 100.208,
+        "y": 100.493
       },
       {
         "date": "2026-08-18",
-        "x": 98.696,
-        "y": 101.96
+        "x": 100.207,
+        "y": 101.99
       },
       {
         "date": "2026-08-19",
-        "x": 98.449,
-        "y": 101.557
+        "x": 99.957,
+        "y": 101.58
       },
       {
         "date": "2026-08-20",
-        "x": 98.787,
-        "y": 100.748
+        "x": 100.299,
+        "y": 100.759
       },
       {
         "date": "2026-08-21",
-        "x": 98.995,
-        "y": 102.612
+        "x": 100.51,
+        "y": 102.652
       },
       {
         "date": "2026-08-24",
-        "x": 99.057,
-        "y": 100.24
+        "x": 100.573,
+        "y": 100.243
       },
       {
         "date": "2026-08-25",
-        "x": 99.286,
-        "y": 103.956
+        "x": 100.806,
+        "y": 104.016
       },
       {
         "date": "2026-08-26",
-        "x": 97.845,
-        "y": 99.767
+        "x": 99.344,
+        "y": 99.764
       },
       {
         "date": "2026-08-27",
-        "x": 98.05,
-        "y": 96.056
+        "x": 99.551,
+        "y": 95.995
       },
       {
         "date": "2026-08-28",
-        "x": 98.162,
-        "y": 96.564
+        "x": 99.665,
+        "y": 96.512
       },
       {
         "date": "2026-08-31",
-        "x": 98.529,
-        "y": 96.704
+        "x": 100.037,
+        "y": 96.654
       },
       {
         "date": "2026-09-01",
-        "x": 97.049,
-        "y": 89.839
+        "x": 98.535,
+        "y": 89.684
       },
       {
         "date": "2026-09-02",
-        "x": 97.645,
-        "y": 95.798
+        "x": 99.14,
+        "y": 95.734
       },
       {
         "date": "2026-09-03",
-        "x": 97.665,
-        "y": 96.167
+        "x": 99.161,
+        "y": 96.108
       },
       {
         "date": "2026-09-04",
-        "x": 97.299,
-        "y": 93.984
+        "x": 98.788,
+        "y": 93.892
       },
       {
         "date": "2026-09-07",
-        "x": 98.644,
-        "y": 96.603
+        "x": 100.155,
+        "y": 96.551
       },
       {
         "date": "2026-09-08",
-        "x": 97.933,
-        "y": 97.469
+        "x": 99.432,
+        "y": 97.43
       },
       {
         "date": "2026-09-09",
-        "x": 98.196,
-        "y": 95.614
+        "x": 99.699,
+        "y": 95.547
       },
       {
         "date": "2026-09-10",
-        "x": 98.811,
-        "y": 98.501
+        "x": 100.324,
+        "y": 98.478
       },
       {
         "date": "2026-09-11",
-        "x": 98.539,
-        "y": 97.488
+        "x": 100.048,
+        "y": 97.45
       },
       {
         "date": "2026-09-15",
-        "x": 97.7,
-        "y": 92.739
+        "x": 99.196,
+        "y": 92.627
       },
       {
         "date": "2026-09-16",
-        "x": 96.197,
-        "y": 91.292
+        "x": 97.67,
+        "y": 91.158
       },
       {
         "date": "2026-09-17",
-        "x": 96.697,
-        "y": 91.016
+        "x": 98.177,
+        "y": 90.879
       },
       {
         "date": "2026-09-18",
-        "x": 97.609,
-        "y": 96.555
+        "x": 99.103,
+        "y": 96.503
       },
       {
         "date": "2026-09-21",
-        "x": 97.822,
-        "y": 98.053
+        "x": 99.32,
+        "y": 98.024
       },
       {
         "date": "2026-09-22",
-        "x": 97.214,
-        "y": 101.184
+        "x": 98.702,
+        "y": 101.202
       },
       {
         "date": "2026-09-23",
-        "x": 98.314,
-        "y": 109.171
+        "x": 99.819,
+        "y": 109.312
       },
       {
         "date": "2026-09-24",
-        "x": 98.131,
-        "y": 101.694
+        "x": 99.634,
+        "y": 101.72
       },
       {
         "date": "2026-09-25",
-        "x": 98.254,
-        "y": 99.331
+        "x": 99.759,
+        "y": 99.321
       },
       {
         "date": "2026-09-28",
-        "x": 96.981,
-        "y": 89.309
+        "x": 98.466,
+        "y": 89.145
       },
       {
         "date": "2026-09-29",
-        "x": 96.808,
-        "y": 90.913
+        "x": 98.29,
+        "y": 90.774
       },
       {
         "date": "2026-09-30",
-        "x": 97.5,
-        "y": 86.783
+        "x": 98.993,
+        "y": 86.581
       },
       {
         "date": "2026-10-01",
-        "x": 96.621,
-        "y": 87.051
+        "x": 98.1,
+        "y": 86.852
       }
     ],
     "Chemicals": [
       {
         "date": "2026-08-06",
-        "x": 98.827,
-        "y": 100.947
+        "x": 98.507,
+        "y": 100.944
       },
       {
         "date": "2026-08-07",
-        "x": 98.37,
-        "y": 98.673
+        "x": 98.052,
+        "y": 98.677
       },
       {
         "date": "2026-08-10",
-        "x": 98.857,
-        "y": 93.529
+        "x": 98.537,
+        "y": 93.55
       },
       {
         "date": "2026-08-11",
-        "x": 98.786,
-        "y": 95.721
+        "x": 98.466,
+        "y": 95.734
       },
       {
         "date": "2026-08-12",
-        "x": 99.093,
-        "y": 97.83
+        "x": 98.773,
+        "y": 97.837
       },
       {
         "date": "2026-08-13",
-        "x": 99.818,
+        "x": 99.495,
         "y": 100.054
       },
       {
         "date": "2026-08-14",
-        "x": 97.793,
-        "y": 95.789
+        "x": 97.476,
+        "y": 95.803
       },
       {
         "date": "2026-08-17",
-        "x": 97.788,
-        "y": 93.178
+        "x": 97.472,
+        "y": 93.2
       },
       {
         "date": "2026-08-18",
-        "x": 96.163,
-        "y": 88.245
+        "x": 95.852,
+        "y": 88.283
       },
       {
         "date": "2026-08-19",
-        "x": 96.557,
-        "y": 87.976
+        "x": 96.245,
+        "y": 88.015
       },
       {
         "date": "2026-08-20",
-        "x": 95.741,
-        "y": 85.744
+        "x": 95.431,
+        "y": 85.79
       },
       {
         "date": "2026-08-21",
-        "x": 96.201,
-        "y": 93.845
+        "x": 95.89,
+        "y": 93.865
       },
       {
         "date": "2026-08-24",
-        "x": 96.361,
-        "y": 94.888
+        "x": 96.049,
+        "y": 94.904
       },
       {
         "date": "2026-08-25",
-        "x": 95.867,
-        "y": 101.242
+        "x": 95.557,
+        "y": 101.238
       },
       {
         "date": "2026-08-26",
-        "x": 95.884,
-        "y": 99.529
+        "x": 95.574,
+        "y": 99.531
       },
       {
         "date": "2026-08-27",
-        "x": 96.514,
-        "y": 100.638
+        "x": 96.202,
+        "y": 100.636
       },
       {
         "date": "2026-08-28",
-        "x": 95.361,
-        "y": 96.567
+        "x": 95.052,
+        "y": 96.579
       },
       {
         "date": "2026-08-31",
-        "x": 97.386,
-        "y": 101.409
+        "x": 97.071,
+        "y": 101.405
       },
       {
         "date": "2026-09-01",
-        "x": 94.616,
-        "y": 92.913
+        "x": 94.31,
+        "y": 92.936
       },
       {
         "date": "2026-09-02",
-        "x": 93.402,
-        "y": 89.025
+        "x": 93.099,
+        "y": 89.06
       },
       {
         "date": "2026-09-03",
-        "x": 94.084,
-        "y": 90.072
+        "x": 93.779,
+        "y": 90.104
       },
       {
         "date": "2026-09-04",
-        "x": 93.46,
-        "y": 90.969
+        "x": 93.157,
+        "y": 90.999
       },
       {
         "date": "2026-09-07",
-        "x": 92.944,
-        "y": 82.975
+        "x": 92.644,
+        "y": 83.03
       },
       {
         "date": "2026-09-08",
-        "x": 92.789,
-        "y": 89.467
+        "x": 92.489,
+        "y": 89.501
       },
       {
         "date": "2026-09-09",
-        "x": 93.875,
-        "y": 95.644
+        "x": 93.571,
+        "y": 95.658
       },
       {
         "date": "2026-09-10",
-        "x": 94.032,
-        "y": 95.088
+        "x": 93.728,
+        "y": 95.104
       },
       {
         "date": "2026-09-11",
-        "x": 93.385,
-        "y": 93.791
+        "x": 93.083,
+        "y": 93.811
       },
       {
         "date": "2026-09-15",
-        "x": 91.85,
-        "y": 90.963
+        "x": 91.553,
+        "y": 90.993
       },
       {
         "date": "2026-09-16",
-        "x": 91.984,
-        "y": 91.733
+        "x": 91.686,
+        "y": 91.759
       },
       {
         "date": "2026-09-17",
-        "x": 93.195,
-        "y": 94.976
+        "x": 92.893,
+        "y": 94.992
       },
       {
         "date": "2026-09-18",
-        "x": 92.79,
-        "y": 97.593
+        "x": 92.489,
+        "y": 97.6
       },
       {
         "date": "2026-09-21",
-        "x": 92.105,
-        "y": 96.354
+        "x": 91.807,
+        "y": 96.366
       },
       {
         "date": "2026-09-22",
-        "x": 92.753,
-        "y": 105.194
+        "x": 92.453,
+        "y": 105.177
       },
       {
         "date": "2026-09-23",
-        "x": 92.532,
-        "y": 104.342
+        "x": 92.232,
+        "y": 104.328
       },
       {
         "date": "2026-09-24",
-        "x": 91.684,
-        "y": 92.953
+        "x": 91.387,
+        "y": 92.976
       },
       {
         "date": "2026-09-25",
-        "x": 93.337,
-        "y": 99.164
+        "x": 93.035,
+        "y": 99.166
       },
       {
         "date": "2026-09-28",
-        "x": 93.882,
-        "y": 97.637
+        "x": 93.578,
+        "y": 97.645
       },
       {
         "date": "2026-09-29",
-        "x": 93.952,
-        "y": 96.09
+        "x": 93.648,
+        "y": 96.103
       },
       {
         "date": "2026-09-30",
-        "x": 93.865,
-        "y": 93.858
+        "x": 93.561,
+        "y": 93.878
       },
       {
         "date": "2026-10-01",
-        "x": 94.869,
-        "y": 101.691
+        "x": 94.562,
+        "y": 101.685
       }
     ],
     "Consumer": [
       {
         "date": "2026-08-06",
-        "x": 111.084,
-        "y": 109.868
+        "x": 109.81,
+        "y": 109.755
       },
       {
         "date": "2026-08-07",
-        "x": 110.109,
-        "y": 104.399
+        "x": 108.847,
+        "y": 104.349
       },
       {
         "date": "2026-08-10",
-        "x": 113.369,
-        "y": 106.014
+        "x": 112.069,
+        "y": 105.945
       },
       {
         "date": "2026-08-11",
-        "x": 114.739,
-        "y": 112.955
+        "x": 113.423,
+        "y": 112.807
       },
       {
         "date": "2026-08-12",
-        "x": 114.257,
-        "y": 112.544
+        "x": 112.947,
+        "y": 112.4
       },
       {
         "date": "2026-08-13",
-        "x": 113.652,
-        "y": 104.424
+        "x": 112.349,
+        "y": 104.373
       },
       {
         "date": "2026-08-14",
-        "x": 113.623,
-        "y": 107.766
+        "x": 112.32,
+        "y": 107.677
       },
       {
         "date": "2026-08-17",
-        "x": 114.267,
-        "y": 98.546
+        "x": 112.957,
+        "y": 98.563
       },
       {
         "date": "2026-08-18",
-        "x": 114.444,
-        "y": 94.6
+        "x": 113.131,
+        "y": 94.662
       },
       {
         "date": "2026-08-19",
-        "x": 115.249,
-        "y": 97.885
+        "x": 113.927,
+        "y": 97.909
       },
       {
         "date": "2026-08-20",
-        "x": 114.519,
-        "y": 100.291
+        "x": 113.206,
+        "y": 100.288
       },
       {
         "date": "2026-08-21",
-        "x": 114.832,
-        "y": 102.025
+        "x": 113.515,
+        "y": 102.002
       },
       {
         "date": "2026-08-24",
-        "x": 114.828,
-        "y": 100.712
+        "x": 113.511,
+        "y": 100.704
       },
       {
         "date": "2026-08-25",
-        "x": 115.313,
-        "y": 105.144
+        "x": 113.991,
+        "y": 105.085
       },
       {
         "date": "2026-08-26",
-        "x": 115.356,
-        "y": 102.171
+        "x": 114.034,
+        "y": 102.147
       },
       {
         "date": "2026-08-27",
-        "x": 116.809,
-        "y": 104.862
+        "x": 115.47,
+        "y": 104.806
       },
       {
         "date": "2026-08-28",
-        "x": 117.077,
-        "y": 105.646
+        "x": 115.734,
+        "y": 105.582
       },
       {
         "date": "2026-08-31",
-        "x": 116.021,
-        "y": 101.596
+        "x": 114.691,
+        "y": 101.578
       },
       {
         "date": "2026-09-01",
-        "x": 114.947,
-        "y": 94.892
+        "x": 113.629,
+        "y": 94.951
       },
       {
         "date": "2026-09-02",
-        "x": 116.176,
-        "y": 98.214
+        "x": 114.844,
+        "y": 98.235
       },
       {
         "date": "2026-09-03",
-        "x": 115.297,
-        "y": 92.273
+        "x": 113.975,
+        "y": 92.362
       },
       {
         "date": "2026-09-04",
-        "x": 115.02,
-        "y": 89.744
+        "x": 113.701,
+        "y": 89.862
       },
       {
         "date": "2026-09-07",
-        "x": 115.018,
-        "y": 92.581
+        "x": 113.699,
+        "y": 92.666
       },
       {
         "date": "2026-09-08",
-        "x": 115.533,
-        "y": 95.621
+        "x": 114.209,
+        "y": 95.672
       },
       {
         "date": "2026-09-09",
-        "x": 116.958,
-        "y": 95.163
+        "x": 115.617,
+        "y": 95.218
       },
       {
         "date": "2026-09-10",
-        "x": 117.1,
-        "y": 99.58
+        "x": 115.758,
+        "y": 99.585
       },
       {
         "date": "2026-09-11",
-        "x": 117.23,
-        "y": 99.263
+        "x": 115.886,
+        "y": 99.271
       },
       {
         "date": "2026-09-15",
-        "x": 115.012,
-        "y": 90.692
+        "x": 113.693,
+        "y": 90.799
       },
       {
         "date": "2026-09-16",
-        "x": 115.76,
-        "y": 93.173
+        "x": 114.432,
+        "y": 93.251
       },
       {
         "date": "2026-09-17",
-        "x": 113.908,
-        "y": 87.294
+        "x": 112.602,
+        "y": 87.44
       },
       {
         "date": "2026-09-18",
-        "x": 112.541,
-        "y": 85.154
+        "x": 111.251,
+        "y": 85.324
       },
       {
         "date": "2026-09-21",
-        "x": 114.004,
-        "y": 90.564
+        "x": 112.697,
+        "y": 90.672
       },
       {
         "date": "2026-09-22",
-        "x": 115.676,
-        "y": 105.105
+        "x": 114.35,
+        "y": 105.046
       },
       {
         "date": "2026-09-23",
-        "x": 113.963,
-        "y": 98.003
+        "x": 112.656,
+        "y": 98.026
       },
       {
         "date": "2026-09-24",
-        "x": 114.731,
-        "y": 99.395
+        "x": 113.415,
+        "y": 99.402
       },
       {
         "date": "2026-09-25",
-        "x": 115.566,
-        "y": 106.069
+        "x": 114.241,
+        "y": 106.0
       },
       {
         "date": "2026-09-28",
-        "x": 115.843,
-        "y": 95.998
+        "x": 114.515,
+        "y": 96.044
       },
       {
         "date": "2026-09-29",
-        "x": 112.686,
-        "y": 81.669
+        "x": 111.394,
+        "y": 81.879
       },
       {
         "date": "2026-09-30",
-        "x": 111.033,
-        "y": 78.723
+        "x": 109.76,
+        "y": 78.967
       },
       {
         "date": "2026-10-01",
-        "x": 110.275,
-        "y": 76.791
+        "x": 109.011,
+        "y": 77.057
       }
     ],
     "Realty": [
       {
         "date": "2026-08-06",
-        "x": 97.646,
-        "y": 94.137
+        "x": 96.918,
+        "y": 94.18
       },
       {
         "date": "2026-08-07",
-        "x": 97.906,
-        "y": 92.085
+        "x": 97.176,
+        "y": 92.144
       },
       {
         "date": "2026-08-10",
-        "x": 100.597,
-        "y": 96.09
+        "x": 99.847,
+        "y": 96.12
       },
       {
         "date": "2026-08-11",
-        "x": 99.542,
-        "y": 103.078
+        "x": 98.8,
+        "y": 103.055
       },
       {
         "date": "2026-08-12",
-        "x": 101.474,
-        "y": 105.819
+        "x": 100.717,
+        "y": 105.776
       },
       {
         "date": "2026-08-13",
-        "x": 101.986,
-        "y": 110.137
+        "x": 101.226,
+        "y": 110.062
       },
       {
         "date": "2026-08-14",
-        "x": 102.265,
-        "y": 110.611
+        "x": 101.502,
+        "y": 110.532
       },
       {
         "date": "2026-08-17",
-        "x": 103.521,
-        "y": 105.091
+        "x": 102.749,
+        "y": 105.053
       },
       {
         "date": "2026-08-18",
-        "x": 103.275,
-        "y": 107.283
+        "x": 102.505,
+        "y": 107.229
       },
       {
         "date": "2026-08-19",
-        "x": 104.249,
-        "y": 103.805
+        "x": 103.472,
+        "y": 103.777
       },
       {
         "date": "2026-08-20",
-        "x": 104.555,
-        "y": 105.636
+        "x": 103.776,
+        "y": 105.594
       },
       {
         "date": "2026-08-21",
-        "x": 104.77,
-        "y": 106.072
+        "x": 103.988,
+        "y": 106.027
       },
       {
         "date": "2026-08-24",
-        "x": 106.599,
-        "y": 108.355
+        "x": 105.804,
+        "y": 108.292
       },
       {
         "date": "2026-08-25",
-        "x": 105.161,
-        "y": 107.945
+        "x": 104.377,
+        "y": 107.886
       },
       {
         "date": "2026-08-26",
-        "x": 104.094,
-        "y": 101.207
+        "x": 103.318,
+        "y": 101.198
       },
       {
         "date": "2026-08-27",
-        "x": 105.167,
+        "x": 104.383,
         "y": 100.0
       },
       {
         "date": "2026-08-28",
-        "x": 105.364,
-        "y": 100.79
+        "x": 104.578,
+        "y": 100.785
       },
       {
         "date": "2026-08-31",
-        "x": 107.531,
-        "y": 100.957
+        "x": 106.73,
+        "y": 100.95
       },
       {
         "date": "2026-09-01",
-        "x": 105.165,
-        "y": 96.355
+        "x": 104.381,
+        "y": 96.382
       },
       {
         "date": "2026-09-02",
-        "x": 105.536,
-        "y": 100.494
+        "x": 104.749,
+        "y": 100.49
       },
       {
         "date": "2026-09-03",
-        "x": 106.988,
-        "y": 102.59
+        "x": 106.19,
+        "y": 102.57
       },
       {
         "date": "2026-09-04",
-        "x": 106.919,
-        "y": 100.988
+        "x": 106.122,
+        "y": 100.98
       },
       {
         "date": "2026-09-07",
-        "x": 106.002,
-        "y": 91.325
+        "x": 105.212,
+        "y": 91.39
       },
       {
         "date": "2026-09-08",
-        "x": 107.029,
+        "x": 106.231,
         "y": 99.976
       },
       {
         "date": "2026-09-09",
-        "x": 104.76,
-        "y": 91.149
+        "x": 103.979,
+        "y": 91.215
       },
       {
         "date": "2026-09-10",
-        "x": 104.673,
-        "y": 87.647
+        "x": 103.893,
+        "y": 87.739
       },
       {
         "date": "2026-09-11",
-        "x": 103.212,
-        "y": 82.032
+        "x": 102.443,
+        "y": 82.166
       },
       {
         "date": "2026-09-15",
-        "x": 100.627,
-        "y": 73.622
+        "x": 99.877,
+        "y": 73.818
       },
       {
         "date": "2026-09-16",
-        "x": 100.513,
-        "y": 84.361
+        "x": 99.763,
+        "y": 84.478
       },
       {
         "date": "2026-09-17",
-        "x": 103.053,
-        "y": 92.343
+        "x": 102.285,
+        "y": 92.401
       },
       {
         "date": "2026-09-18",
-        "x": 103.417,
+        "x": 102.646,
         "y": 99.928
       },
       {
         "date": "2026-09-21",
-        "x": 105.661,
-        "y": 107.562
+        "x": 104.874,
+        "y": 107.505
       },
       {
         "date": "2026-09-22",
-        "x": 107.534,
-        "y": 123.442
+        "x": 106.732,
+        "y": 123.267
       },
       {
         "date": "2026-09-23",
-        "x": 107.872,
-        "y": 125.026
+        "x": 107.068,
+        "y": 124.84
       },
       {
         "date": "2026-09-24",
-        "x": 108.92,
-        "y": 114.817
+        "x": 108.107,
+        "y": 114.707
       },
       {
         "date": "2026-09-25",
-        "x": 110.595,
-        "y": 118.775
+        "x": 109.771,
+        "y": 118.635
       },
       {
         "date": "2026-09-28",
-        "x": 109.145,
-        "y": 101.628
+        "x": 108.331,
+        "y": 101.616
       },
       {
         "date": "2026-09-29",
-        "x": 107.713,
-        "y": 91.835
+        "x": 106.91,
+        "y": 91.896
       },
       {
         "date": "2026-09-30",
-        "x": 111.647,
-        "y": 99.503
+        "x": 110.815,
+        "y": 99.507
       },
       {
         "date": "2026-10-01",
-        "x": 110.029,
-        "y": 93.984
+        "x": 109.208,
+        "y": 94.029
       }
     ],
     "Telecom": [
       {
         "date": "2026-08-06",
-        "x": 102.729,
-        "y": 98.608
+        "x": 103.235,
+        "y": 98.601
       },
       {
         "date": "2026-08-07",
-        "x": 103.631,
-        "y": 98.081
+        "x": 104.142,
+        "y": 98.071
       },
       {
         "date": "2026-08-10",
-        "x": 102.683,
-        "y": 95.64
+        "x": 103.189,
+        "y": 95.619
       },
       {
         "date": "2026-08-11",
-        "x": 101.677,
-        "y": 91.256
+        "x": 102.178,
+        "y": 91.213
       },
       {
         "date": "2026-08-12",
-        "x": 103.41,
-        "y": 94.736
+        "x": 103.92,
+        "y": 94.711
       },
       {
         "date": "2026-08-13",
-        "x": 103.266,
-        "y": 98.578
+        "x": 103.775,
+        "y": 98.571
       },
       {
         "date": "2026-08-14",
-        "x": 106.219,
-        "y": 105.151
+        "x": 106.742,
+        "y": 105.176
       },
       {
         "date": "2026-08-17",
-        "x": 105.342,
-        "y": 104.221
+        "x": 105.861,
+        "y": 104.241
       },
       {
         "date": "2026-08-18",
-        "x": 104.033,
-        "y": 103.066
+        "x": 104.545,
+        "y": 103.081
       },
       {
         "date": "2026-08-19",
-        "x": 103.705,
-        "y": 96.277
+        "x": 104.216,
+        "y": 96.259
       },
       {
         "date": "2026-08-20",
-        "x": 104.104,
-        "y": 100.418
+        "x": 104.617,
+        "y": 100.42
       },
       {
         "date": "2026-08-21",
-        "x": 104.248,
-        "y": 92.591
+        "x": 104.762,
+        "y": 92.555
       },
       {
         "date": "2026-08-24",
-        "x": 103.8,
-        "y": 94.48
+        "x": 104.312,
+        "y": 94.453
       },
       {
         "date": "2026-08-25",
-        "x": 103.948,
-        "y": 102.05
+        "x": 104.46,
+        "y": 102.06
       },
       {
         "date": "2026-08-26",
-        "x": 102.083,
-        "y": 96.796
+        "x": 102.586,
+        "y": 96.78
       },
       {
         "date": "2026-08-27",
-        "x": 101.295,
-        "y": 89.743
+        "x": 101.794,
+        "y": 89.692
       },
       {
         "date": "2026-08-28",
-        "x": 101.16,
-        "y": 89.746
+        "x": 101.658,
+        "y": 89.696
       },
       {
         "date": "2026-08-31",
-        "x": 97.756,
-        "y": 80.075
+        "x": 98.238,
+        "y": 79.977
       },
       {
         "date": "2026-09-01",
-        "x": 101.383,
-        "y": 88.691
+        "x": 101.882,
+        "y": 88.635
       },
       {
         "date": "2026-09-02",
-        "x": 101.2,
-        "y": 93.595
+        "x": 101.698,
+        "y": 93.563
       },
       {
         "date": "2026-09-03",
-        "x": 101.711,
-        "y": 98.482
+        "x": 102.212,
+        "y": 98.474
       },
       {
         "date": "2026-09-04",
-        "x": 100.031,
-        "y": 93.085
+        "x": 100.524,
+        "y": 93.051
       },
       {
         "date": "2026-09-07",
-        "x": 101.295,
-        "y": 106.901
+        "x": 101.794,
+        "y": 106.935
       },
       {
         "date": "2026-09-08",
-        "x": 101.363,
-        "y": 94.525
+        "x": 101.862,
+        "y": 94.498
       },
       {
         "date": "2026-09-09",
-        "x": 100.619,
-        "y": 91.999
+        "x": 101.114,
+        "y": 91.96
       },
       {
         "date": "2026-09-10",
-        "x": 101.765,
-        "y": 95.02
+        "x": 102.266,
+        "y": 94.995
       },
       {
         "date": "2026-09-11",
-        "x": 101.673,
-        "y": 98.517
+        "x": 102.174,
+        "y": 98.51
       },
       {
         "date": "2026-09-15",
-        "x": 102.863,
-        "y": 97.707
+        "x": 103.37,
+        "y": 97.696
       },
       {
         "date": "2026-09-16",
-        "x": 102.682,
-        "y": 103.408
+        "x": 103.188,
+        "y": 103.425
       },
       {
         "date": "2026-09-17",
-        "x": 102.504,
-        "y": 99.498
+        "x": 103.009,
+        "y": 99.495
       },
       {
         "date": "2026-09-18",
-        "x": 105.359,
-        "y": 110.384
+        "x": 105.879,
+        "y": 110.435
       },
       {
         "date": "2026-09-21",
-        "x": 101.553,
-        "y": 99.85
+        "x": 102.053,
+        "y": 99.849
       },
       {
         "date": "2026-09-22",
-        "x": 101.2,
-        "y": 97.795
+        "x": 101.699,
+        "y": 97.784
       },
       {
         "date": "2026-09-23",
-        "x": 101.578,
-        "y": 99.701
+        "x": 102.079,
+        "y": 99.699
       },
       {
         "date": "2026-09-24",
-        "x": 101.161,
-        "y": 93.206
+        "x": 101.66,
+        "y": 93.173
       },
       {
         "date": "2026-09-25",
-        "x": 100.239,
-        "y": 81.826
+        "x": 100.733,
+        "y": 81.737
       },
       {
         "date": "2026-09-28",
-        "x": 101.026,
-        "y": 89.94
+        "x": 101.524,
+        "y": 89.89
       },
       {
         "date": "2026-09-29",
-        "x": 101.299,
-        "y": 92.107
+        "x": 101.798,
+        "y": 92.069
       },
       {
         "date": "2026-09-30",
-        "x": 100.912,
-        "y": 86.87
+        "x": 101.41,
+        "y": 86.806
       },
       {
         "date": "2026-10-01",
-        "x": 100.884,
-        "y": 90.492
+        "x": 101.382,
+        "y": 90.445
       }
     ]
   },
@@ -8667,7 +8667,7 @@
       "open": 1448.2,
       "high": 1477.5,
       "low": 1428.9,
-      "vol": 598630,
+      "vol": 598654,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -8700,7 +8700,7 @@
       "open": 1100.0,
       "high": 1112.2,
       "low": 1068.0,
-      "vol": 594959,
+      "vol": 594962,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -8733,7 +8733,7 @@
       "open": 1973.6,
       "high": 2006.9,
       "low": 1952.1,
-      "vol": 1459404,
+      "vol": 1459687,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -8766,7 +8766,7 @@
       "open": 1764.8,
       "high": 1831.0,
       "low": 1763.6,
-      "vol": 3418803,
+      "vol": 3419070,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -8799,7 +8799,7 @@
       "open": 1975.7,
       "high": 2027.6,
       "low": 1936.2,
-      "vol": 542968,
+      "vol": 542969,
       "dCandle": "Bullish Candle",
       "wCandle": "Hammer",
       "mCandle": "Bullish Candle",
@@ -8832,7 +8832,7 @@
       "open": 708.4,
       "high": 721.3,
       "low": 707.1,
-      "vol": 37147457,
+      "vol": 37389857,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Doji",
       "mCandle": "Bullish Candle",
@@ -8865,7 +8865,7 @@
       "open": 1230.0,
       "high": 1256.0,
       "low": 1228.9,
-      "vol": 3429976,
+      "vol": 3430282,
       "dCandle": "Bullish Candle",
       "wCandle": "Doji",
       "mCandle": "Bearish Candle",
@@ -8931,7 +8931,7 @@
       "open": 413.75,
       "high": 428.15,
       "low": 411.35,
-      "vol": 12667884,
+      "vol": 12669050,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Doji",
@@ -8964,7 +8964,7 @@
       "open": 284.5,
       "high": 287.5,
       "low": 283.45,
-      "vol": 1678501,
+      "vol": 1678508,
       "dCandle": "Bullish Candle",
       "wCandle": "Shooting Star",
       "mCandle": "Bearish Candle",
@@ -8997,7 +8997,7 @@
       "open": 211.03,
       "high": 216.99,
       "low": 203.33,
-      "vol": 21390050,
+      "vol": 21390228,
       "dCandle": "Hanging Man",
       "wCandle": "Bullish Candle",
       "mCandle": "Hanging Man",
@@ -9032,7 +9032,7 @@
       "open": 2160.1,
       "high": 2265.0,
       "low": 2160.1,
-      "vol": 1178135,
+      "vol": 1178274,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Hammer",
       "mCandle": "Bearish Candle",
@@ -9065,7 +9065,7 @@
       "open": 1764.8,
       "high": 1831.0,
       "low": 1763.6,
-      "vol": 3418803,
+      "vol": 3419070,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -9098,7 +9098,7 @@
       "open": 1010.0,
       "high": 1035.0,
       "low": 999.15,
-      "vol": 15061214,
+      "vol": 15166446,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -9164,7 +9164,7 @@
       "open": 861.0,
       "high": 889.9,
       "low": 859.6,
-      "vol": 4630394,
+      "vol": 4633143,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Doji",
@@ -9197,7 +9197,7 @@
       "open": 422.5,
       "high": 438.0,
       "low": 421.05,
-      "vol": 1843443,
+      "vol": 1843893,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -9263,7 +9263,7 @@
       "open": 1020.0,
       "high": 1041.8,
       "low": 1019.7,
-      "vol": 2029891,
+      "vol": 2030089,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -9329,7 +9329,7 @@
       "open": 4789.9,
       "high": 4860.0,
       "low": 4760.0,
-      "vol": 393675,
+      "vol": 393680,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -9364,7 +9364,7 @@
       "open": 1050.0,
       "high": 1058.4,
       "low": 963.9,
-      "vol": 14047939,
+      "vol": 14061779,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -9397,7 +9397,7 @@
       "open": 10701.0,
       "high": 10714.0,
       "low": 9900.0,
-      "vol": 1491210,
+      "vol": 1491300,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Marubozu",
@@ -9430,7 +9430,7 @@
       "open": 11900.0,
       "high": 11907.0,
       "low": 11305.0,
-      "vol": 885527,
+      "vol": 885820,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
@@ -9463,7 +9463,7 @@
       "open": 553.15,
       "high": 555.55,
       "low": 522.5,
-      "vol": 7829469,
+      "vol": 7831270,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -9496,7 +9496,7 @@
       "open": 535.7,
       "high": 537.65,
       "low": 511.2,
-      "vol": 2465186,
+      "vol": 2466891,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -9529,7 +9529,7 @@
       "open": 530.4,
       "high": 531.7,
       "low": 499.25,
-      "vol": 5985781,
+      "vol": 5986497,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -9562,7 +9562,7 @@
       "open": 46.2,
       "high": 46.5,
       "low": 44.04,
-      "vol": 5501661,
+      "vol": 5512411,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -9595,7 +9595,7 @@
       "open": 180.5,
       "high": 181.67,
       "low": 170.67,
-      "vol": 26194118,
+      "vol": 26206885,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -9628,7 +9628,7 @@
       "open": 161.35,
       "high": 162.27,
       "low": 153.81,
-      "vol": 23035578,
+      "vol": 23039471,
       "dCandle": "Bearish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -9661,7 +9661,7 @@
       "open": 298.05,
       "high": 298.2,
       "low": 286.2,
-      "vol": 9064727,
+      "vol": 9069239,
       "dCandle": "Bearish Marubozu",
       "wCandle": "Bearish Marubozu",
       "mCandle": "Bearish Candle",
@@ -9696,7 +9696,7 @@
       "open": 1975.7,
       "high": 2027.6,
       "low": 1936.2,
-      "vol": 542968,
+      "vol": 542969,
       "dCandle": "Bullish Candle",
       "wCandle": "Hammer",
       "mCandle": "Bullish Candle",
@@ -9729,7 +9729,7 @@
       "open": 1929.9,
       "high": 1966.8,
       "low": 1880.8,
-      "vol": 323964,
+      "vol": 323967,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -9762,7 +9762,7 @@
       "open": 1448.2,
       "high": 1477.5,
       "low": 1428.9,
-      "vol": 598630,
+      "vol": 598654,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -9795,7 +9795,7 @@
       "open": 1677.9,
       "high": 1700.7,
       "low": 1654.2,
-      "vol": 1074037,
+      "vol": 1074057,
       "dCandle": "Doji",
       "wCandle": "Bearish Candle",
       "mCandle": "Doji",
@@ -9828,7 +9828,7 @@
       "open": 1973.6,
       "high": 2006.9,
       "low": 1952.1,
-      "vol": 1459404,
+      "vol": 1459687,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -9863,7 +9863,7 @@
       "open": 413.75,
       "high": 428.15,
       "low": 411.35,
-      "vol": 12667884,
+      "vol": 12669050,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Doji",
@@ -9896,7 +9896,7 @@
       "open": 1975.7,
       "high": 2027.6,
       "low": 1936.2,
-      "vol": 542968,
+      "vol": 542969,
       "dCandle": "Bullish Candle",
       "wCandle": "Hammer",
       "mCandle": "Bullish Candle",
@@ -9929,7 +9929,7 @@
       "open": 1448.2,
       "high": 1477.5,
       "low": 1428.9,
-      "vol": 598630,
+      "vol": 598654,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bullish Candle",
@@ -9962,7 +9962,7 @@
       "open": 426.0,
       "high": 435.6,
       "low": 416.05,
-      "vol": 76628600,
+      "vol": 76637247,
       "dCandle": "Bearish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Doji",
@@ -9995,7 +9995,7 @@
       "open": 230.0,
       "high": 233.99,
       "low": 229.52,
-      "vol": 9033217,
+      "vol": 9034271,
       "dCandle": "Inverted Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -10028,7 +10028,7 @@
       "open": 1764.8,
       "high": 1831.0,
       "low": 1763.6,
-      "vol": 3418803,
+      "vol": 3419070,
       "dCandle": "Bullish Marubozu",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -10127,7 +10127,7 @@
       "open": 5276.0,
       "high": 5396.0,
       "low": 5250.5,
-      "vol": 506172,
+      "vol": 506268,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -10160,7 +10160,7 @@
       "open": 1640.0,
       "high": 1697.9,
       "low": 1617.5,
-      "vol": 140765,
+      "vol": 140782,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Candle",
@@ -10193,7 +10193,7 @@
       "open": 79.37,
       "high": 81.13,
       "low": 78.87,
-      "vol": 9604814,
+      "vol": 9608211,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Hanging Man",
@@ -10226,7 +10226,7 @@
       "open": 2282.0,
       "high": 2321.1,
       "low": 2269.7,
-      "vol": 1134010,
+      "vol": 1134071,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -10259,7 +10259,7 @@
       "open": 2052.6,
       "high": 2093.9,
       "low": 2045.1,
-      "vol": 3427531,
+      "vol": 3428501,
       "dCandle": "Bullish Candle",
       "wCandle": "Bullish Candle",
       "mCandle": "Bearish Marubozu",
@@ -10292,7 +10292,7 @@
       "open": 1230.0,
       "high": 1256.0,
       "low": 1228.9,
-      "vol": 3429976,
+      "vol": 3430282,
       "dCandle": "Bullish Candle",
       "wCandle": "Doji",
       "mCandle": "Bearish Candle",
@@ -10325,7 +10325,7 @@
       "open": 274.0,
       "high": 279.85,
       "low": 267.8,
-      "vol": 6750389,
+      "vol": 6751156,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Shooting Star",
@@ -10358,7 +10358,7 @@
       "open": 671.0,
       "high": 682.0,
       "low": 665.45,
-      "vol": 1577135,
+      "vol": 1577224,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -10391,7 +10391,7 @@
       "open": 3266.2,
       "high": 3300.0,
       "low": 3197.0,
-      "vol": 49710,
+      "vol": 49734,
       "dCandle": "Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -10424,7 +10424,7 @@
       "open": 1540.0,
       "high": 1554.8,
       "low": 1512.0,
-      "vol": 2662773,
+      "vol": 2663224,
       "dCandle": "Hanging Man",
       "wCandle": "Hanging Man",
       "mCandle": "Bearish Candle",
@@ -10457,7 +10457,7 @@
       "open": 2472.5,
       "high": 2494.9,
       "low": 2431.7,
-      "vol": 352331,
+      "vol": 352530,
       "dCandle": "Hammer",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Candle",
@@ -10490,7 +10490,7 @@
       "open": 158.61,
       "high": 160.95,
       "low": 157.25,
-      "vol": 18519625,
+      "vol": 18521731,
       "dCandle": "Bullish Candle",
       "wCandle": "Bearish Candle",
       "mCandle": "Bearish Marubozu",
