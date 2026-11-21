@@ -1,6 +1,6 @@
 {
-  "fetchedAt": "21/11/2026, 07:19:16 PM IST",
-  "fetchedAtISO": "2026-11-21T13:49:16.584970+00:00",
+  "fetchedAt": "22/11/2026, 04:01:27 AM IST",
+  "fetchedAtISO": "2026-11-21T22:31:27.111644+00:00",
   "marketStatus": "Closed",
   "totalStocks": 208,
   "stocks": [
@@ -4345,7 +4345,7 @@
       "qCandle": "Bearish Marubozu",
       "trend": 0,
       "near52w": false,
-      "hi52": 1763.85,
+      "hi52": 1763.84,
       "rsi": 37.5,
       "atr": 38.45,
       "ma20": 1312.58,
